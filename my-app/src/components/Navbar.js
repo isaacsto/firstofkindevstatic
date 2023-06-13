@@ -4,7 +4,7 @@ import '../../src/App.css';
 
 const styles = {
     navbarStyle: {
-      background: '#473446',
+      background: '#E2E1D5',
       display: 'flex',
       justifyContent: 'flex-start',
     },

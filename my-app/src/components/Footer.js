@@ -11,7 +11,7 @@ const styles = {
 
   function Footer() {
     return(
-  <footer style={styles.footerStyle}>Created with React</footer>
+  <footer className="footer" style={styles.footerStyle}>Created with React</footer>
     )}
 
 export default Footer

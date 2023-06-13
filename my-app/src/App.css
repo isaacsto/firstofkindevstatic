@@ -37,17 +37,32 @@
   }
 }
 
+
+
+
 /* header styling*/
 
-/* .header-body {
-  display: flex;
+.header {
+  background-image: url("https://i.imgur.com/UB3zdiP.png") ; 
+  /* background-image: url("https://i.imgur.com/zTvLbdO.jpg") ; */
 }
- */
+
+h1  {
+  background-color: #E2E1D5;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+ h2 {
+  background-color: #E2E1D5;
+  margin-top: 10px;
+
+ }
 
 /* section styling  */
 
  * {
-  color:#453244;
+  color:#0F0F0C;
+  
 } 
 
 .card1 {
@@ -79,7 +94,7 @@ h6 {
 }
 
 .card-title  { 
-  background-color: whitesmoke;
+  background-color: #E2E1D5;
   border-radius: 5px;
   padding: 5px;
 }
@@ -93,26 +108,40 @@ h6 {
 
 
 .card-anchor { 
-  color: #473446;
+  color: #0F0F0C;
   text-decoration: none;
 }
 
 .card-anchor:hover { 
-  color: #8f8fb8;
+  color: #617C84;
 }
 
 
 /* contact styling */
 
 .contact-me {
-  margin-right: 40px;
+ 
+  background-color: #E2E1D5;
+  padding-right: 40px;
 }
 
 .contact-anchor {
-  color: #473446;
+  color: #0F0F0C;
   text-decoration: none;
 }
 
 .contact-anchor:hover {
-  color: #8f8fb8;
+  color: #617C84;
+}
+
+/* about styling */
+
+.aboutDiv {
+  background-color: #E2E1D5;
+}
+
+/* footer styling */
+
+.footer {
+  background-color: #E2E1D5;
 }
