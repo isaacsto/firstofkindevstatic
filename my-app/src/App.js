@@ -1,10 +1,19 @@
 import React from "react";
-import Display from "./components/Display";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Section from "./components/Section";
+
+
 import './App.css';
 
 function App() {
   return (
-     < Display />
+    <div>
+      < Navbar />
+      < Header />
+      < Section/>
+    </div>
+     
   );
 }
 

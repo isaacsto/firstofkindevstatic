@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-image: url(./assets/prof_pic.jpeg);
+}
+
+.card1 {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/jerry-zheng-O52DcUsqOuE-unsplash.jpg);
+}
+
+.card3 {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/david-emrich-QNlBDI43rBM-unsplash.jpg);
+}
+
+.card-title  { 
+  background-color: beige;
+}
+.card-anchor { 
+  background-color: beige;
+}
