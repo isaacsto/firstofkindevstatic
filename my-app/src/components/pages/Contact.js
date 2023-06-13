@@ -1,29 +1,66 @@
-import React from 'react';
-import '../../src/App.css';
+import React, { useState } from 'react';
+import '../../src/app.css';
 
-const styles = {
-    contactStyle: {
-      display: 'flex', 
-      justifyContent: 'flex-end'
-      
-    },
-  };
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-    return(
-        <section class="contact-me">
-            
-            <h4 class="head" style={styles.contactStyle}>Contact Me</h4> 
-           
-            <p style={styles.contactStyle}>
-                <a href="tel:+2032410505" class="contact-anchor">203 241 0505</a>
-            </p>
-            
-            <address style={styles.contactStyle}>
-                <a href="mailto:isaacstofko@gmail.com" class="contact-anchor">isaacstofko@gmail.com</a>
-            </address>
-        </section>
-    )
+
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'name') {
+      setName(inputValue);
+    } 
+  };
+
+  const handleFormSubmit = (e) => {
+    
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+     
+      return;
+    }
+    setEmail('');
+  };
+
+  return (
+    <div>
+      <form className="form">
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="email"
+        />
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../src/App.css';
+import './PortfolioContainer'
+
 
 
 const styles = {
@@ -9,7 +11,7 @@ const styles = {
     },
   };
 
-  function Footer() {
+  function Footer({currentPage, handlePageChange}) {
     return(
   <footer className="footer" style={styles.footerStyle}>Created with React</footer>
     )}
