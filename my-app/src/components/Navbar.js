@@ -10,7 +10,7 @@ const styles = {
     },
   };
 
-  function Navbar() {
+  function Navbar({currentPage, handlePageChange}) {
     return (
       
         <nav style={styles.navbarStyle} className="navbar">
