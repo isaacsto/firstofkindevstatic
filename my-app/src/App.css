@@ -37,15 +37,11 @@
   }
 }
 
-.card {
-  height: 33vh;
-  background-size: cover;
-  background-position-y: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-image: url(./assets/prof_pic.jpeg);
-}
+/* section styling  */
+
+ * {
+  color:#453244;
+} 
 
 .card1 {
   height: 33vh;
@@ -53,11 +49,11 @@
   background-position-y: 60%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   background-image: url(./assets/jerry-zheng-O52DcUsqOuE-unsplash.jpg);
 }
 
-.card3 {
+.card2 {
   height: 33vh;
   background-size: cover;
   background-position-y: center;
@@ -67,9 +63,49 @@
   background-image: url(./assets/david-emrich-QNlBDI43rBM-unsplash.jpg);
 }
 
-.card-title  { 
-  background-color: beige;
+h5 {
+  text-align: center;
+ 
 }
+h6 { 
+  text-align: center;
+}
+
+.card-title  { 
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+
 .card-anchor { 
-  background-color: beige;
+  color: #473446;
+  text-decoration: none;
+}
+
+.card-anchor:hover { 
+  color: #8f8fb8;
+}
+
+
+/* contact styling */
+
+.contact-me {
+  margin-right: 40px;
+}
+
+.contact-anchor {
+  color: #473446;
+  text-decoration: none;
+}
+
+.contact-anchor:hover {
+  color: #8f8fb8;
 }

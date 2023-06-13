@@ -1,23 +1,22 @@
 import React from 'react';
+/* import { Link } from 'react-router-dom';  */
 import '../../src/App.css';
 
 const styles = {
     navbarStyle: {
-      background: '#7F95A2',
-      justifyContent: 'flex-end',
+      background: '#473446',
+      display: 'flex',
+      justifyContent: 'flex-start',
     },
   };
 
   function Navbar() {
     return (
-        <div>   
+      
         <nav style={styles.navbarStyle} className="navbar">
-        <a href="/">Welcome</a>
-        </nav> 
-        <section>
-       
-          </section>
-        </div>
+ 
+        
+        </nav>
       );
   }
   
