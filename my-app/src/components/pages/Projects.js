@@ -2,7 +2,7 @@ import React from 'react';
 import '../../src/App.css';
 
 
-function Section() {
+function Projects() {
     return(
 <section>
 <div className="card1">
@@ -25,4 +25,4 @@ function Section() {
     )
 }
 
-export default Section;
+export default Projects;
