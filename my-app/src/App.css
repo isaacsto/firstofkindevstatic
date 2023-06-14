@@ -39,6 +39,25 @@
 
 
 
+* {
+  color:#0F0F0C;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  
+} 
+
+
+
+/* Nav styling */
+
+.nav-item {
+  color: #0F0F0C;
+  text-decoration: none;
+}
+
+.nac-item:hover { 
+  color: #617C84;
+}
 
 /* header styling*/
 
@@ -58,12 +77,8 @@ h1  {
 
  }
 
-/* section styling  */
+/* project styling  */
 
- * {
-  color:#0F0F0C;
-  
-} 
 
 .card1 {
   height: 33vh;
@@ -118,6 +133,9 @@ h5 {
 .card-anchor { 
   color: #0F0F0C;
   text-decoration: none;
+  background-color: #E2E1D5;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .card-anchor:hover { 
