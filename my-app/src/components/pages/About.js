@@ -22,7 +22,7 @@ const styles = {
       display: 'flex',
       justifyContent: 'center',
       padding: '50px',
-      height: '50vw',
+      height: '100vw',
       width: '100vw',
     },  
 

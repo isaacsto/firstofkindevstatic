@@ -7,7 +7,7 @@ const style = {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: '50vw',
+    height: '100vw',
     width: '100vw',
   }
 }
