@@ -3,6 +3,8 @@ import '../../App.css'
 
 import { validateEmail } from '../../utils/helpers';
 
+//function to alert user when they enter an invalid email
+
 function Contact() {
 
   const [email, setEmail] = useState('');
@@ -34,33 +36,57 @@ function Contact() {
      
       return;
     }
-    alert('contact submitted!');
     setEmail('');
   };
 
+//style 
+
+const styles = {
+  formStyle: {
+    padding: '60px',
+    width: '50%',
+    height: '50vw'
+  },
+}
+
+//html markup 
+
   return (
-    <div>
-      <form className="form">
-        <input
+    <div className="form-container">
+      <form className="form" style={styles.formStyle}>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
           value={email}
           name="email"
           onChange={handleInputChange}
-          type="email"
-          placeholder="email"
+         /*  type="email"
+          placeholder="email" */
         />
-        <input
+         <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name"
           value={name}
           name="name"
           onChange={handleInputChange}
-          type="text"
-          placeholder="name"
+          /* type="text"
+          placeholder="name" */
         />
-         <input
+         <label for="floatingInput">Your Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+         <input type="text" class="form-control" id="floatingInput" placeholder="your message" 
           onChange={handleInputChange}
-          type="text"
-          placeholder="message"
+          /* type="text"
+          placeholder="message" */
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+         <label for="floatingInput">Your Message</label>
+        </div>
+       
+        <button button type="button" class="btn btn-secondary" onClick={handleFormSubmit}>Submit</button>
+
       </form>
       {errorMessage && (
         <div>
@@ -68,6 +94,7 @@ function Contact() {
         </div>
       )}
     </div>
+   
   );
 }
 

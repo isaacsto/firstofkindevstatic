@@ -138,25 +138,19 @@ h5 {
 
 /* contact styling */
 
-.contact-me {
- 
+.form-container {
   background-color: #E2E1D5;
-  padding-right: 40px;
 }
 
-.contact-anchor {
-  color: #0F0F0C;
-  text-decoration: none;
-}
-
-.contact-anchor:hover {
-  color: #617C84;
-}
 
 /* about styling */
 
 .aboutDiv {
   background-color: #E2E1D5;
+}
+
+.my-pic {
+  border-radius: 10px;
 }
 
 /* footer styling */
