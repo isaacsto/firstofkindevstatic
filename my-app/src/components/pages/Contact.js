@@ -7,6 +7,8 @@ function Contact() {
 
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
+
+
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -32,6 +34,7 @@ function Contact() {
      
       return;
     }
+    alert('contact submitted!');
     setEmail('');
   };
 
@@ -51,6 +54,11 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+        />
+         <input
+          onChange={handleInputChange}
+          type="text"
+          placeholder="message"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
