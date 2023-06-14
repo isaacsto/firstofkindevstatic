@@ -4,7 +4,7 @@ import '../../App.css'
 
 const styles = {
     imgStyle: {
-        width: '30%',
+        width: '40%',
         height: 'auto',
         margin: '20px',
 
@@ -15,14 +15,15 @@ const styles = {
       justifyContent: 'flex-end',
       float: 'right'
     },
-    subHeadStyle: {
-        
+    subHeadStyle: { 
         height: 'auto',
     },
     aboutStyle: {
       display: 'flex',
       justifyContent: 'center',
       padding: '50px',
+      height: '50vw',
+      width: '100vw',
     },
 
   };
