@@ -11,8 +11,8 @@ import React from 'react';
       <li className="nav-item"> <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a></li>
 
       <li className="nav-item">
-        <a href="#blog" onClick={() => handlePageChange('Projects')} className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}>
-          Blog</a>
+        <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
+          Projects</a>
       </li>
       <li className="nav-item">
         <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
