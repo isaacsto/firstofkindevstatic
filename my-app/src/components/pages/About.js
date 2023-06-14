@@ -42,7 +42,7 @@ return(
         </div>
          <h2 style={styles.subHeadStyle}>Full Stack Developer</h2>
     <p>
-          I'm a freshly graduated full-stack web developer with an educational and professional background in English Literature, Creative Writing, Music Production, Hospitality, and Team Management. I look forward to bringing my creative and analytical mindset to the tech industry and pursuing an interdisciplinary appraoch to solving problems.
+    I am a new web developer equipped with a robust educational and professional foundation in English Literature, Creative Writing, Hospitality, and Team Management. Alongside these skills, I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. I eagerly anticipate integrating my imaginative and analytical mindset into the technology industry, as I embark on an interdisciplinary approach to problem-solving.
           </p>
     </div>
 )
