@@ -7,6 +7,8 @@ const styles = {
         width: '70%',
         height: 'auto',
         margin: '100px',
+        border: 'solid 2px',
+        padding: '10px'
     },
     headingStyle: {
       fontSize: '90px',

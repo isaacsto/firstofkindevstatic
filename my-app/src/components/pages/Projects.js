@@ -19,7 +19,7 @@ function Projects() {
          <h5 className="card-title">
          <a href="https://github.com/Cashew1337/Travel-Planner/" class="card-anchor">Full Stack Travel Planner App</a>
          </h5>
-         <p> <a href="https://us05web.zoom.us/j/5911972139?pwd=NGhTNDFGQTBUK3B5T01MdlpYcEl3dz09" class="card-anchor">DayTryppers</a></p>
+         <p class="card-anchor">DayTryppers</p>
     </div>            
  </div>
 
@@ -54,8 +54,10 @@ function Projects() {
     <div className="card-body">
          <h5 className="card-title">
          <a href="https://github.com/isaacsto/Tech-Blog/settings/pages" class="card-anchor">Full Stack Tech Blog App</a>
-         <p>To be deployed</p>
+         
          </h5>
+         <p class="card-anchor">Tech-Talk</p>
+         
     </div>            
  </div>
 
