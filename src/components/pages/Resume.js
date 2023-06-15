@@ -12,6 +12,7 @@ const Resume = () => {
 
   return ( 
     <div className="resume-page">
+      <h1>skills...</h1>
       <div class="circle"
       onClick={handleDownload}>
      <p className="tools">
