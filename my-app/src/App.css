@@ -192,7 +192,7 @@ h5 {
 /* about styling */
 
 .aboutDiv {
-  background-color: #617C84;
+  background-color: #E2E1D5;
 }
 
 
@@ -247,7 +247,7 @@ h5 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: solid 3px #216E42;
+  border: solid 1px #216E42;
   /* background-color: #B99D20; */
   background-color: #C3A32C;
   cursor: pointer;
