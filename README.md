@@ -24,4 +24,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### Support/Contact
 For any inquiries or support, please feel free to reach out to me at Isaacstofko@gmail.com.
 
-<img src="/assets/about-page.png">
+<img src="https://i.imgur.com/NxNVjgb.png">
