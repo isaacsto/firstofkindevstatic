@@ -7,8 +7,6 @@ const styles = {
         width: '70%',
         height: 'auto',
         margin: '100px',
-        border: 'solid 2px',
-        padding: '10px'
     },
     headingStyle: {
       fontSize: '90px',
@@ -36,7 +34,9 @@ return(
     <div className="aboutDiv" style={styles.aboutStyle}> 
     <h1>Full Stack Developer</h1>
     <div className="header-body">
+      <div className="image-container">
         <img src="https://i.imgur.com/8q7Kug0.jpg" alt="a side profile of the developer at the Museum of Modern Art in New York City" style={styles.imgStyle} className="my-pic"></img>
+        </div>
         <h1 style={styles.headingStyle}  >Isaac Stofko
         </h1>
         </div>

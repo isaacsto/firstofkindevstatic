@@ -8,7 +8,7 @@ import { validateEmail } from "../../utils/helpers";
 function Contact() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  
+
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
@@ -110,13 +110,12 @@ function Contact() {
         >
           Submit
         </button>
+
+          
+        {errorMessage && <p className="error-text">{errorMessage}</p>}
+          {successMessage && <p className="success-text">{successMessage}</p>}
       </form>
       
-        
-          {errorMessage && <p className="error-text">{errorMessage}</p>}
-          {successMessage && <p className="success-text">{successMessage}</p>}
-        
-    
     </div>
   );
 }

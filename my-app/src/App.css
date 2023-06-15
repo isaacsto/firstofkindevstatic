@@ -195,8 +195,14 @@ h5 {
   background-color: #E2E1D5;
 }
 
+
 .my-pic {
   border-radius: 10px;
+}
+
+.about-para {
+  width: 50%;
+  padding: 70px
 }
 
 /* footer styling */
