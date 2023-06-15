@@ -80,7 +80,8 @@
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-image: url("https://i.imgur.com/d6qeIDC.jpg");
+  background-image: url("https://i.imgur.com/ii0BWWM.jpg");
+  
 }
 
 .card2 {
@@ -90,10 +91,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/bqRI6zA.jpg");
+  background-image: url("https://i.imgur.com/pX19Cum.jpg");
+  
 }
 
 .card3 {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.imgur.com/CV2ulv6.jpg");
+  
+}
+
+.card4 {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.imgur.com/dUq3m2a.jpg");
+}
+
+.card5 {
+  height: 33vh;
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.imgur.com/bqRI6zA.jpg");
+}
+
+.card6 {
   height: 33vh;
   background-size: cover;
   background-position-y: center;
@@ -158,6 +191,21 @@ h5 {
 .footer {
   background-color: #E2E1D5;
 }
+
+  .nav {
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    display: inline-block;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #0F0F0C;
+    margin-right: 10px;
+  }
+
 
 /* container styling */
 

@@ -26,10 +26,39 @@ function Projects() {
  <div className="card3">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://www.linkedin.com/in/isaac-stofko-374a32264/" class="card-anchor">LinkedIn</a>
+         <a href="https://github.com/isaacsto/Portfolio" class="card-anchor">Pure HTML Webpage</a>
+         </h5>
+         <p> <a href="https://isaacsto.github.io/Portfolio/" class="card-anchor">First Portfolio</a></p>
+    </div>            
+ </div>
+
+ <div className="card4">
+    <div className="card-body">
+         <h5 className="card-title">
+         <a href="https://github.com/isaacsto/Code-Quiz" class="card-anchor">JavaScript Timed Quiz App</a>
+         </h5>
+         <p> <a href="https://isaacsto.github.io/Code-Quiz/">Code Quiz</a></p>
+    </div>            
+ </div>
+
+ <div className="card5">
+    <div className="card-body">
+         <h5 className="card-title">
+         <a href="https://github.com/isaacsto/Work-Day-Scheduler" class="card-anchor">Simple Calendar App</a>
+         </h5>
+         <p> <a href="https://isaacsto.github.io/Work-Day-Scheduler/">Work Day Scheduler</a></p>
+    </div>            
+ </div>
+
+ <div className="card6">
+    <div className="card-body">
+         <h5 className="card-title">
+         <a href="https://github.com/isaacsto/Tech-Blog/settings/pages" class="card-anchor">Full Stack Tech Blog App</a>
+         <p>To be deployed</p>
          </h5>
     </div>            
  </div>
+
 
 </section>
     )

@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+
 import '../App.css';
 
 
