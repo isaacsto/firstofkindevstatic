@@ -80,8 +80,8 @@
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-image: url("https://i.imgur.com/ii0BWWM.jpg");
-  
+  /* background-image: url("https://i.imgur.com/pX19Cum.jpg"); */
+  background-image: url("https://i.imgur.com/i31Irdl.jpg");
 }
 
 .card2 {
@@ -91,7 +91,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/pX19Cum.jpg");
+  
+  background-image: url("https://i.imgur.com/ZPc3WT7.jpg");
   
 }
 
@@ -102,7 +103,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/CV2ulv6.jpg");
+  background-image: url("https://i.imgur.com/5YfrufZ.jpg");
   
 }
 
@@ -113,7 +114,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/dUq3m2a.jpg");
+  background-image: url("https://i.imgur.com/bqRI6zA.jpg");
+ 
 }
 
 .card5 {
@@ -123,7 +125,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/bqRI6zA.jpg");
+  background-image: url("https://i.imgur.com/rMViTU6.jpg");
+ 
+  
 }
 
 .card6 {
@@ -133,7 +137,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/rMViTU6.jpg");
+  /* background-image: url("https://i.imgur.com/dUq3m2a.jpg"); */
+ 
+  background-image: url("https://i.imgur.com/ngghKdG.jpg");
 }
 
 h5 {

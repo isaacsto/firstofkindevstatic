@@ -4,19 +4,19 @@ import '../../App.css'
 
 const styles = {
     imgStyle: {
-        width: '60%',
+        width: '70%',
         height: 'auto',
-        margin: '50px',
+        margin: '100px',
     },
     headingStyle: {
-      fontSize: '100px',
+      fontSize: '90px',
       display: 'flex',
       justifyContent: 'flex-end',
       float: 'right',
       width: '100%',
     }, 
     subHeadStyle: { 
-        padding: '20px'
+        padding: '40px'
     }, 
    aboutStyle: {
       display: 'flex',

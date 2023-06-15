@@ -3,7 +3,7 @@ import '../../App.css'
 
 const style = {
   containerStyle: {
-    backgroundImage: 'url("https://i.imgur.com/UB3zdiP.png")',
+    backgroundImage: 'url("https://i.imgur.com/rwNKj6h.jpg")',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
