@@ -192,7 +192,7 @@ h5 {
 /* about styling */
 
 .aboutDiv {
-  background-color: #E2E1D5;
+  background-color: #617C84;
 }
 
 
@@ -236,7 +236,7 @@ h5 {
 /* Resume Download */
 
 .resume-page {
-  background-color: #B99D20;
+  background-color: #C3A32C;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,8 +247,9 @@ h5 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: solid 2px #0F0F0C;
-  background-color: #B99D20;
+  border: solid 3px #216E42;
+  /* background-color: #B99D20; */
+  background-color: #C3A32C;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -256,7 +257,8 @@ h5 {
 }
 
 .tools {
-  font-size: 38px;
+  font-size: 45px;
   text-align: center;
-
+  color: #216E42;
 }
+  
