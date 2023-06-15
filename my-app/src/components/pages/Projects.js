@@ -37,7 +37,7 @@ function Projects() {
          <h5 className="card-title">
          <a href="https://github.com/isaacsto/Code-Quiz" class="card-anchor">JavaScript Timed Quiz App</a>
          </h5>
-         <p> <a href="https://isaacsto.github.io/Code-Quiz/">Code Quiz</a></p>
+         <p> <a href="https://isaacsto.github.io/Code-Quiz/" class="card-anchor">Code Quiz</a></p>
     </div>            
  </div>
 
@@ -46,7 +46,7 @@ function Projects() {
          <h5 className="card-title">
          <a href="https://github.com/isaacsto/Work-Day-Scheduler" class="card-anchor">Simple Calendar App</a>
          </h5>
-         <p> <a href="https://isaacsto.github.io/Work-Day-Scheduler/">Work Day Scheduler</a></p>
+         <p> <a href="https://isaacsto.github.io/Work-Day-Scheduler/" class="card-anchor">Work Day Scheduler</a></p>
     </div>            
  </div>
 
