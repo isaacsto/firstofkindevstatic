@@ -12,8 +12,8 @@ const styles = {
 const Resume = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = process.env.PUBLIC_URL + '/assets/Tech-Resume.txt';
-    downloadLink.download = 'Tech-Resume.txt';
+    downloadLink.href = process.env.PUBLIC_URL + '/assets/IS_Resume.pdf';
+    downloadLink.download = 'IS_Resume.pdf';
     downloadLink.click();
   };
 
