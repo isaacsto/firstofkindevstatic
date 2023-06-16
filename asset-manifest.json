@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.23ea4a98.css",
-    "main.js": "/react-portfolio/static/js/main.33a354e1.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/fa-solid-900.ttf": "/react-portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/react-portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/react-portfolio/index.html",
-    "main.23ea4a98.css.map": "/react-portfolio/static/css/main.23ea4a98.css.map",
-    "main.33a354e1.js.map": "/react-portfolio/static/js/main.33a354e1.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.a67457f2.css",
+    "main.js": "/React-Portfolio/static/js/main.9593424f.js",
+    "static/js/787.18c97524.chunk.js": "/React-Portfolio/static/js/787.18c97524.chunk.js",
+    "static/media/fa-solid-900.ttf": "/React-Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/React-Portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Portfolio/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/React-Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/React-Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/React-Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/React-Portfolio/index.html",
+    "main.a67457f2.css.map": "/React-Portfolio/static/css/main.a67457f2.css.map",
+    "main.9593424f.js.map": "/React-Portfolio/static/js/main.9593424f.js.map",
+    "787.18c97524.chunk.js.map": "/React-Portfolio/static/js/787.18c97524.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ea4a98.css",
-    "static/js/main.33a354e1.js"
+    "static/css/main.a67457f2.css",
+    "static/js/main.9593424f.js"
   ]
 }
