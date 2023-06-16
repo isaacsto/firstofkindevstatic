@@ -287,7 +287,8 @@ h5 {
 }
 
  .tools {
-  font-size: 45px;
+  font-size: 47px;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #216E42;
 }
