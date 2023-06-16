@@ -54,7 +54,7 @@ function About() {
         {" "}
         <p>
           I am a new web developer equipped with a robust educational and
-          professional foundation in English Literature, Creative Writing,
+          professional foundation in English Literature, Creative Writing, Art History, 
           Hospitality, and Team Management. Alongside these skills, I possess
           comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST
           APIs, CSS, HTML, and SQL among other languages and technologies. I
