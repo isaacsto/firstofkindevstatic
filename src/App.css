@@ -193,6 +193,7 @@ h5 {
 
 .aboutDiv {
   background-color: #E2E1D5;
+
 }
 
 
@@ -203,6 +204,24 @@ h5 {
 .about-para {
   width: 50%;
   padding: 70px
+}
+
+.quote-cont {
+  background-color: #E2E1D5;
+  padding: 20px;
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.tag-line {
+  font-size: 30px;
+ 
+}
+
+.tag2 {
+  font-size: 20px;
+
 }
 
 /* footer styling */
