@@ -1,6 +1,12 @@
 import React from "react";
 import "../../App.css";
 
+const styles = {
+  contStyle: {
+      height: "100vh",
+      width: "100vw"
+  }
+}
 
 const Resume = () => {
   const handleDownload = () => {
@@ -11,7 +17,7 @@ const Resume = () => {
   };
 
   return ( 
-    <div className="resume-page">
+    <div className="resume-page" style={styles.contStyle}>
       <h1 className="skills">skills...</h1>
       <div class="circle"
       onClick={handleDownload}>
