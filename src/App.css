@@ -240,11 +240,13 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 100px;
 }
 
-h1 {
-  color: #216E42
+.skills {
+  display: flex; 
+  color: hsl(146, 54%, 28%)
 }
 
 .circle {
@@ -260,9 +262,9 @@ h1 {
   align-items: center;
 }
 
-/* .tools {
+ .tools {
   font-size: 45px;
   text-align: center;
   color: #216E42;
 }
-   */
+  
