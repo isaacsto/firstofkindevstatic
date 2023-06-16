@@ -278,12 +278,11 @@ h5 {
   height: 500px;
   border-radius: 50%;
   border: solid 1px #216E42;
-  /* background-color: #B99D20; */
   background-color: #C3A32C;
-  cursor: pointer;
+ /*  cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
  .tools {

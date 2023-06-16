@@ -4,7 +4,8 @@ import "../../App.css";
 const styles = {
   contStyle: {
       height: "100vh",
-      width: "100vw"
+      width: "100vw",
+      backgroundColor: "#C3A32C"
   }
 }
 
@@ -17,7 +18,8 @@ const Resume = () => {
   };
 
   return ( 
-    <div className="resume-page" style={styles.contStyle}>
+    <div classNam="resCont" style={styles.contStyle}> 
+    <div className="resume-page">
       <h1 className="skills">skills...</h1>
       <div class="circle"
       onClick={handleDownload}>
@@ -31,6 +33,7 @@ const Resume = () => {
       NOSQL<br></br>
       REACT <br></br>
       </p>
+        </div>
         </div>
     </div>
   )
