@@ -7,7 +7,7 @@ const style = {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: '100vw',
+    height: '100vh',
     width: '100vw',
   }
 }
@@ -17,6 +17,7 @@ function Home() {
   return (
   
       <div className="home-body" style={style.containerStyle}>
+    
       </div>
   );
 }

@@ -43,10 +43,11 @@ function Contact() {
     formStyle: {
       padding: "35px",
       width: "50%",
-      height: "100vw",
+      height: "100vh",
     },
     header: {
-      padding: "30px",
+      paddingTop: "30px",
+      paddingLeft: "30px"
     },
   };
 

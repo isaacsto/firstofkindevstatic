@@ -8,6 +8,12 @@ const styles = {
         height: 'auto',
         margin: '70px',
     },
+    imgStyle2: {
+      width: '65%',
+      height: 'auto',
+      margin: '10px', 
+      borderRadius: '10%'
+  },
     headingStyle: {
       fontSize: '100px',
       width: '100%',
@@ -19,7 +25,7 @@ const styles = {
       display: 'flex',
       justifyContent: 'center',
       padding: '50px',
-      height: '100vw',
+      height: '92vh',
       width: '100vw',
     },  
 
@@ -38,9 +44,12 @@ return(
         </h1>
         </div>
          <h2 style={styles.subHeadStyle}> About Me</h2>
-    <p>
+         <div>    <p>
     I am a new web developer equipped with a robust educational and professional foundation in English Literature, Creative Writing, Hospitality, and Team Management. Alongside these skills, I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. I eagerly anticipate integrating my imaginative and analytical mindset into the technology industry, as I embark on an interdisciplinary approach to problem-solving.
           </p>
+          <img src="https://i.imgur.com/UB3zdiP.png" style={styles.imgStyle2}></img>
+          </div>
+
     </div>
 )
 }
