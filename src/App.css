@@ -298,3 +298,15 @@ h5 {
   font-size: 40px;
 }
 
+@media screen and (max-width: 992px) {
+  .aboutDiv, .resCont {
+    width: 50%;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .aboutDiv,  .resCont {
+    width: 100%;
+  }
+}
