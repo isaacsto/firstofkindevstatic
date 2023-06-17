@@ -265,7 +265,7 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 60px;
+/*   padding: 60px; */
 }
 
 .skills {
