@@ -265,7 +265,7 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-/*   padding: 60px; */
+  padding: 60px; 
 }
 
 .skills {
@@ -307,7 +307,7 @@ h5 {
 
 /* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
-  .aboutDiv, .secondDiv, .resCont, .resume-page {
+   .secondDiv, .resCont {
     width: 100vw;
     height: 100vh
   }
