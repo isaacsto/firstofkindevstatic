@@ -299,7 +299,7 @@ h5 {
 }
 
 @media screen and (max-width: 992px) {
-  .aboutDiv, .resCont {
+  .aboutDiv, .secondDiv, .resCont, .resume-page {
     width: 100vw;
     height: 100vh
   }
@@ -307,7 +307,7 @@ h5 {
 
 /* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
-  .aboutDiv,  .resCont {
+  .aboutDiv, .secondDiv, .resCont, .resume-page {
     width: 100vw;
     height: 100vh
   }

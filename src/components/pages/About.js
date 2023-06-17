@@ -36,7 +36,7 @@ function About() {
   return (
   
     <div className="aboutDiv"  style={styles.container}>
-    <div style={styles.aboutStyle}>
+    <div className="secondDiv" style={styles.aboutStyle}>
       <h1>Full Stack Developer</h1>
       <div className="header-body">
         <div className="image-container">
@@ -76,7 +76,7 @@ function About() {
       <p className="tag2">Ralph Waldo Emerson</p>
       </h2>
       </div>
-      
+
     </div>
   );
 }
