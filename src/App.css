@@ -300,7 +300,8 @@ h5 {
 
 @media screen and (max-width: 992px) {
   .aboutDiv, .resCont {
-    width: 50%;
+    width: 100%;
+    height: 100%
   }
 }
 
@@ -308,5 +309,6 @@ h5 {
 @media screen and (max-width: 768px) {
   .aboutDiv,  .resCont {
     width: 100%;
+    height: 100%
   }
 }

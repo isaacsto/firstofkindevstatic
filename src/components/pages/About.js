@@ -67,15 +67,16 @@ function About() {
           style={styles.imgStyle2}
         alt="A textured black and white print featuring designs that are reminiscent of both human mouths and plants"></img>
       </div>
+    
+      </div>
+    
       <div className="quote-cont">
         <h2 className="tag-line">
         "Nothing great was ever achieved without enthusiasm"
       <p className="tag2">Ralph Waldo Emerson</p>
       </h2>
       </div>
-     
-      </div>
-    
+      
     </div>
   );
 }
