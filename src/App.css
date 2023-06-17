@@ -300,15 +300,15 @@ h5 {
 
 @media screen and (max-width: 992px) {
   .aboutDiv, .resCont {
-    width: 100%;
-    height: 100%
+    width: 100vw;
+    height: 100vh
   }
 }
 
 /* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
   .aboutDiv,  .resCont {
-    width: 100%;
-    height: 100%
+    width: 100vw;
+    height: 100vh
   }
 }
