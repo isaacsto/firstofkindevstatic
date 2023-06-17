@@ -4,7 +4,7 @@ import "../../App.css";
 const styles = {
   contStyle: {
       height: "100vh",
-      width: "100vw",
+      width: "100%",
       backgroundColor: "#C3A32C"
   }
 }
