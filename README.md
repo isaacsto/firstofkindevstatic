@@ -5,7 +5,7 @@
 ## Introduction
 The React Portfolio is an application created to showcase my web development skills. Built using React, this portfolio provides a functional and interactive experience for visitors. It serves as a platform to demonstrate my projects and provides links to other resources such as GitHub repositories, deployed applications, LinkedIn, a third-party platform, and a downloadable resume.
 
-<img src="https://i.imgur.com/NxNVjgb.png">
+<img src="https://i.imgur.com/SsKJvuF.png">
 
 ## Features
 Navigation: A user-friendly navigation bar with tabs for seamless navigation between different sections of the portfolio.
