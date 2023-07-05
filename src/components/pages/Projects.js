@@ -53,7 +53,7 @@ function Projects() {
  <div className="card6">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://github.com/isaacsto/Tech-Blog/settings/pages" class="card-anchor">Full Stack Tech Blog App</a>
+         <a href="https://github.com/isaacsto/Tech-Blog" class="card-anchor">Full Stack Tech Blog App</a>
          
          </h5>
          <p class="card-anchor">Tech-Talk : TBD </p>

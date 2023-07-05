@@ -1,30 +1,31 @@
-import React from 'react';
-import '../App.css'
+import React from "react";
 
-  function Navbar({currentPage, handlePageChange}) {
-    return (
+import { Link } from "react-router-dom";
+
+import "../App.css";
+
+function Navbar({ currentPage, handlePageChange }) {
+  return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a href="#home" onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
+        <Link to="/">Home</Link>
       </li>
 
-      <li className="nav-item"> <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a></li>
+      <li className="nav-item">
+        <Link to="/About">About</Link>
+      </li>
 
       <li className="nav-item">
-        <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
-          Projects</a>
+        <Link to="/Projects">Projects</Link>
       </li>
       <li className="nav-item">
-        <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        > Resume </a>
+        <Link to="/Resume">Resume</Link>
       </li>
       <li className="nav-item">
-        <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        > Contact </a>
+        <Link to="/Contact">Contact</Link>
       </li>
     </ul>
-      );
-  };
-  
-  export default Navbar;
+  );
+}
+
+export default Navbar;
