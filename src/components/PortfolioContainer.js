@@ -19,20 +19,10 @@ export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
 /*   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    if (currentPage === '/React-Portfolio') {
+      return <About />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
-    if (currentPage === 'Projects') {
-      return <Projects />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    return <About />;
-  }; */
+  };  */
 
   const handlePageChange = (page) => setCurrentPage(page);
 
@@ -48,16 +38,18 @@ export default function PortfolioContainer() {
 
 <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
-<Routes>
-  <Route path="/" element={<Home />} />
+<Routes initialPath="/About">
+<Route path="/React-Portfolio" element={<About />} />
+<Route path="/" element={<About />} />
+  <Route path="/Home" element={<Home />} />
   <Route path="Contact" element={<Contact />} />
   <Route path="/Projects" element={< Projects />} />
   <Route path="/Resume" element={<Resume />} />
   <Route path="/About" element={<About />} />
 </Routes>
      
-    {/*   {renderPage()} 
- */}
+    {/*  {renderPage()}  */}
+
       <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
       
       </Router>
