@@ -17,9 +17,9 @@ function Projects() {
  <div className="card2">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://github.com/Cashew1337/Travel-Planner/" class="card-anchor">Full Stack Travel Planner App</a>
+         <a href="https://github.com/Cashew1337/Art-Dealer" class="card-anchor">Ecommerce App</a>
          </h5>
-         <p class="card-anchor">DayTryppers : TBD</p>
+         <p> <a href="https://nameless-springs-87426-ab7084b2cd1d.herokuapp.com" class="card-anchor">Offres D'art</a></p>
     </div>            
  </div>
 
@@ -41,6 +41,17 @@ function Projects() {
     </div>            
  </div>
 
+{/*  <div className="card5">
+    <div className="card-body">
+         <h5 className="card-title">
+         <a href="https://github.com/Cashew1337/Travel-Planner" class="card-anchor">Full-Stack Travel Planner App</a>
+         
+         </h5>
+         <p> <a href="filler" class="card-anchor">Filler</a></p>
+         
+    </div>            
+ </div> */}
+
  <div className="card5">
     <div className="card-body">
          <h5 className="card-title">
@@ -50,16 +61,7 @@ function Projects() {
     </div>            
  </div>
 
- <div className="card6">
-    <div className="card-body">
-         <h5 className="card-title">
-         <a href="https://github.com/isaacsto/Tech-Blog" class="card-anchor">Full Stack Tech Blog App</a>
-         
-         </h5>
-         <p class="card-anchor">Tech-Talk : TBD </p>
-         
-    </div>            
- </div>
+
 
 
 </section>
