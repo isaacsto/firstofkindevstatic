@@ -39,13 +39,14 @@ export default function PortfolioContainer() {
 <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
 <Routes initialPath="/About">
-<Route path="/React-Portfolio" element={<About />} />
+<Route path="/React-Portfolio" element={<Home/>} />
 <Route path="/" element={<Home />} />
   <Route path="/About" element={<About/>} />
   <Route path="Contact" element={<Contact />} />
   <Route path="/Projects" element={< Projects />} />
   <Route path="/Resume" element={<Resume />} />
   <Route path="/About" element={<About />} />
+  <Route path="/Home" element={< Home/>}/>
 </Routes>
      
     {/*  {renderPage()}  */}
