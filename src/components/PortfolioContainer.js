@@ -16,7 +16,7 @@ import '../App.css';
 
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
 
 /*   const renderPage = () => {
     if (currentPage === '/React-Portfolio') {
