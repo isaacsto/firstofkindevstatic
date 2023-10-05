@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="portfolioCont">
+    <body className="portfolioCont">
       <Router>
       <head>
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
@@ -53,6 +53,6 @@ export default function PortfolioContainer() {
       <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
       
       </Router>
-    </div>
+    </body>
   );
 }

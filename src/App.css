@@ -52,7 +52,9 @@
   
 } 
 
-
+.portfolioCont{
+  background-color: #E2E1D5;
+}
 
 /* Nav styling */
 
@@ -197,38 +199,31 @@ h5 {
 
 /* about styling */
 
+
 .aboutDiv {
   background-color: #E2E1D5;
-
+  margin-left:10px;
+  margin-right: 10px;
+  height: 100%;
 }
 
-
+.aboutIntro {
+  margin: 10px;
+}
 .my-pic {
   border-radius: 10px;
+  max-width: 375px;
+  margin: 50px;
 }
 
-.about-para {
-  width: 50%;
-  padding: 70px
+.main-about {
+  display: flex;
 }
 
-.quote-cont {
-  background-color: #E2E1D5;
-  padding: 20px;
-  flex-shrink: 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.tag-line {
-  font-size: 30px;
- 
+#about-me-para {
+  padding: 25px;
 }
 
-.tag2 {
-  font-size: 20px;
-
-}
 
 /* footer styling */
 
