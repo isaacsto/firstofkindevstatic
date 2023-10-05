@@ -38,7 +38,7 @@ export default function PortfolioContainer() {
 
 <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
-<Routes initialPath="/About">
+<Routes initialPath="/Home">
 <Route path="/React-Portfolio" element={<Home/>} />
 <Route path="/" element={<Home />} />
   <Route path="/About" element={<About/>} />
