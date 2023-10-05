@@ -45,7 +45,6 @@ export default function PortfolioContainer() {
   <Route path="Contact" element={<Contact />} />
   <Route path="/Projects" element={< Projects />} />
   <Route path="/Resume" element={<Resume />} />
-  <Route path="/About" element={<About />} />
   <Route path="/Home" element={< Home/>}/>
 </Routes>
      
