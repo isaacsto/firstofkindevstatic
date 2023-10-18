@@ -217,6 +217,7 @@ h5 {
 
 .main-about {
   display: flex;
+  height: 100%; 
 }
 
 #about-me-para {
