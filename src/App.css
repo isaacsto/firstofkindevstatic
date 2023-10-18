@@ -202,8 +202,7 @@ h5 {
 
 .aboutDiv {
   background-color: #E2E1D5;
-  margin-left:10px;
-  margin-right: 10px;
+padding: 0px 10px;  
   height: 100%;
 }
 
@@ -212,7 +211,7 @@ h5 {
 }
 .my-pic {
   border-radius: 10px;
-  max-width: 375px;
+  max-width: 370px;
   margin: 50px;
 }
 
