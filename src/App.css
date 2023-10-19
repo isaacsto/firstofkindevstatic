@@ -207,12 +207,12 @@ h5 {
 }
 
 .aboutIntro {
-  margin: 10px;
+  padding: 10px;
 }
 .my-pic {
   border-radius: 10px;
   max-width: 370px;
-  margin: 50px;
+  padding: 50px;
 }
 
 .main-about {
@@ -303,7 +303,7 @@ h5 {
 @media screen and (max-width: 992px) {
   .aboutDiv, .secondDiv, .resCont, .resume-page {
     width: 100vw;
-    height: 100vh
+    height: 100vh;
   }
 }
 
