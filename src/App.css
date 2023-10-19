@@ -200,24 +200,20 @@ h5 {
 /* about styling */
 
 
-.aboutDiv {
+#aboutDiv {
   background-color: #E2E1D5;
   padding: 0px 10px;  
   height: 100%;
+  display: flex; 
 }
 
-.aboutIntro {
+#aboutDiv h1 {
   padding: 10px;
 }
-.my-pic {
+#aboutDiv img {
   border-radius: 10px;
   max-width: 370px;
   padding: 50px;
-}
-
-.main-about {
-  display: flex;
-  height: 100%; 
 }
 
 #about-me-para {

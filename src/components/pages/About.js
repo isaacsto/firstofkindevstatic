@@ -5,23 +5,24 @@ import "../../App.css";
 function About() {
   return (
 
-    <div className="aboutDiv" >
+    <div id="aboutDiv" >
    
-  <div className="aboutIntro">
+
     <h1 className="about-me-name">Isaac Stofko</h1>
       <h2 className="pro-title"> Full Stack Web Developer</h2>
-      </div>
+    
   
-     <div className="main-about">
-        <div className="image-container">
+   
+    <div className="image-container">
           <img
             src="https://i.imgur.com/gylZ6Zs.jpg"
             alt="" 
             className="my-pic"
           />
-      
       </div>
-        <p id="about-me-para">
+
+      <div  id="about-me-para">
+        <p>
           I am a new web developer equipped with a robust educational and
           professional foundation in English Literature, Creative Writing, Art History, 
           Hospitality, and Team Management. Alongside these skills, I possess
@@ -31,7 +32,8 @@ function About() {
           into the technology industry, as I embark on an interdisciplinary
           approach to problem-solving.
         </p>
-      </div>
+        </div>
+
 
       </div>
 
