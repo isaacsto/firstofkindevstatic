@@ -210,22 +210,17 @@ h5 {
 #aboutDiv h1 {
   padding: 10px;
 }
-#aboutDiv img {
+
+#aboutDiv .image-container {
+  background-color: #E2E1D5;
   border-radius: 10px;
   max-width: 370px;
   padding: 50px;
 }
 
 #about-me-para {
+  background-color: #E2E1D5;
   padding: 25px;
-}
-
-.image-container {
-  background-color: #E2E1D5;
-}
-
-#about-me-para {
-  background-color: #E2E1D5;
 }
 
 /* footer styling */
