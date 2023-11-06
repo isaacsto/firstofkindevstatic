@@ -5,9 +5,9 @@ import "../../App.css";
 function About() {
   return (
 
-    <div className="aboutDiv" >
+    <div id="aboutDiv" >
    
-  <div className="aboutIntro">
+<div class="aboutIntro">
     <h1 className="about-me-name">Isaac Stofko</h1>
       <h2 className="pro-title"> Full Stack Web Developer</h2>
       <div className="image-container">
@@ -17,9 +17,10 @@ function About() {
             className="my-pic"
           />
       </div>
-  </div> 
+      </div>
+  
      <div className="main-about">
-    
+
         <p>
           I am a new web developer equipped with a robust educational and
           professional foundation in English Literature, Creative Writing, Art History, 
@@ -30,9 +31,9 @@ function About() {
           into the technology industry, as I embark on an interdisciplinary
           approach to problem-solving.
         </p>
-      </div>
+        </div>
 
-      </div>
+</div>
 
   );
 }
