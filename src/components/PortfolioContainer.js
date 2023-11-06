@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 import Projects from "./pages/Projects";
 import Footer from "./Footer";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+//import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 import '../App.css';
@@ -43,7 +43,7 @@ export default function PortfolioContainer() {
 <Route path="/" element={<Home />} />
 <Route path="/Home" element={< Home/>}/>
   <Route path="/About" element={<About/>} />
-  <Route path="Contact" element={<Contact />} />
+
   <Route path="/Projects" element={< Projects />} />
   <Route path="/Resume" element={<Resume />} />
 </Routes>
