@@ -89,7 +89,6 @@
   display: flex;
   align-items: center;
   justify-content: center; 
-  /* background-image: url("https://i.imgur.com/pX19Cum.jpg"); */
   background-image: url("https://i.imgur.com/i31Irdl.jpg");
 }
 
@@ -100,7 +99,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
   background-image: url("https://i.imgur.com/ZPc3WT7.jpg");
   
 }
@@ -153,9 +151,10 @@
 
 h5 {
   text-align: center;
- 
 }
-
+h5.card-title i {
+  margin-left: 10px; 
+}
 .card-title  { 
   background-color: #E2E1D5;
   border-radius: 5px;
@@ -170,6 +169,7 @@ h5 {
   max-width: fit-content;
   flex-direction: column; 
   border-radius: 5px; 
+  padding: 5px; 
 }
 
 
