@@ -159,14 +159,16 @@ h5 {
   background-color: #E2E1D5;
   border-radius: 5px;
   padding: 5px;
+  max-width: fit-content; 
 }
 
 .card-body {
   display: flex; 
   align-items: center;
   justify-content: center;
-  width: fit-content;
+  max-width: fit-content;
   flex-direction: column; 
+  border-radius: 5px; 
 }
 
 
@@ -175,6 +177,7 @@ h5 {
   text-decoration: none;
   background-color: #E2E1D5;
   border-radius: 5px;
+  max-width: fit-content;
 
 }
 
@@ -208,22 +211,27 @@ h5 {
 }
 
 .aboutIntro {
-  margin: 10px;
+  margin: 40px 10px;
 }
 
 #aboutDiv .image-container {
   background-color: #E2E1D5;
-  border-radius: 10px;
-  max-width: 375px;
-  margin: 50px;
+  margin: 30px 50px;
 }
-
+#aboutDiv img {
+  border-radius: 5px; 
+}
 .main-about {
   display: flex;
 }
 
 #about-me-para {
   padding: 25px;
+}
+.main-about p {
+  height: 100%; 
+  align-items: center; 
+  padding: 70px 50px; 
 }
 
 @media screen and (max-width: 900px) {
@@ -234,7 +242,10 @@ h5 {
     align-items: center; 
   }
 }
-
+.about-body {
+  display: flex; 
+  flex-direction: row; 
+}
 /* footer styling */
 
 .footer {

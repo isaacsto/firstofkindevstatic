@@ -35,29 +35,18 @@ function Projects() {
  <div className="card4">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://github.com/isaacsto/Code-Quiz" class="card-anchor">JavaScript Timed Quiz App</a>
+         <a href="https://github.com/isaacsto/ReviewsCN" class="card-anchor">SerpAPI Reviews App</a>
          </h5>
-         <p> <a href="https://isaacsto.github.io/Code-Quiz/" class="card-anchor">Code Quiz</a></p>
+         <p> <a href="https://reviewscn.onrender.com/" class="card-anchor">Contractor Nation Reviews</a></p>
     </div>            
  </div>
-
-{/*  <div className="card5">
-    <div className="card-body">
-         <h5 className="card-title">
-         <a href="https://github.com/Cashew1337/Travel-Planner" class="card-anchor">Full-Stack Travel Planner App</a>
-         
-         </h5>
-         <p> <a href="filler" class="card-anchor">Filler</a></p>
-         
-    </div>            
- </div> */}
 
  <div className="card5">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://github.com/isaacsto/Work-Day-Scheduler" class="card-anchor">Simple Calendar App</a>
+         <a href="https://github.com/isaacsto/Form_Builder" class="card-anchor">HTML Custom Form Builder</a>
          </h5>
-         <p> <a href="https://isaacsto.github.io/Work-Day-Scheduler/" class="card-anchor">Work Day Scheduler</a></p>
+         <p> <a href="https://isaacsto.github.io/Form_Builder/" class="card-anchor">Form Builder</a></p>
     </div>            
  </div>
 

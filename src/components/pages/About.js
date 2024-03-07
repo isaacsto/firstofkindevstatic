@@ -10,19 +10,21 @@ function About() {
 <div class="aboutIntro">
     <h1 className="about-me-name">Isaac Stofko</h1>
       <h2 className="pro-title"> Full Stack Web Developer</h2>
+      </div>
+      <div className="about-body"> 
       <div className="image-container">
           <img
             src="https://i.imgur.com/gylZ6Zs.jpg"
             alt="" 
-            className="my-pic"
+            className="my-pic" width="200"
           />
       </div>
-      </div>
+    
   
      <div className="main-about">
 
         <p>
-          I am a new web developer equipped with a robust educational and
+          I am a full stack web developer equipped with a robust educational and
           professional foundation in English Literature, Creative Writing, Art History, 
           Hospitality, and Team Management. Alongside these skills, I possess
           comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST
@@ -34,7 +36,7 @@ function About() {
         </div>
 
 </div>
-
+</div>
   );
 }
 
