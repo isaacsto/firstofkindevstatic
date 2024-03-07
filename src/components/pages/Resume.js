@@ -34,7 +34,9 @@ const Resume = () => {
       </p>
         </div>
         </div>
+        
         </div> 
+       
     </div>
   )
 }

@@ -224,30 +224,61 @@ h5.card-title i {
 .image-container img {
   border-radius: 5px; 
 }
-.main-about {
-  display: flex;
+
+div.main-about {
+  display: flex; 
+  height: 100%; 
+  align-items: center; 
 }
 
-#about-me-para {
-  padding: 25px;
-}
 .main-about p {
   height: 100%; 
   align-items: center; 
-  padding: 70px 50px; 
+  padding: 40px; 
+}
+.about-body-wrap {
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 900px) {
-  .aboutDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-  }
-}
 .about-body {
   display: flex; 
   flex-direction: row; 
+  max-width: 45%; 
+  justify-content: center;
+}
+@media screen and (max-width: 1500px) {
+  .about-body {
+    max-width: 55%; 
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-body {
+    max-width: 65%; 
+  }
+}
+@media screen and (max-width: 924px) {
+  .about-body {
+    max-width: 75%; 
+  }
+}
+@media screen and (max-width: 782px) {
+  .about-body {
+    max-width: 90%; 
+  }
+}
+@media screen and (max-width: 650px) {
+
+  div.about-body {
+    flex-direction: column; 
+  }
+  #aboutDiv .image-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+  }
 }
 /* footer styling */
 
