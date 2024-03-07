@@ -216,10 +216,9 @@ h5 {
 
 #aboutDiv .image-container {
   background-color: #E2E1D5;
-  margin: 30px 50px;
-}
-#aboutDiv img {
-  border-radius: 5px; 
+  border-radius: 10px;
+  max-width: 375px;
+  margin: 50px;
 }
 .main-about {
   display: flex;
