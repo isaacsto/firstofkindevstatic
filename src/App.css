@@ -330,7 +330,12 @@ h5 {
   color: #216E42;
   position: relative; 
   background-color: #C3A32C;
-
+}
+.circle:hover {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+}
+.tools:hover {
+  color: #0e341f;
 }
 .resCont {
   height: 100vw; 
