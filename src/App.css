@@ -220,6 +220,9 @@ h5 {
   max-width: 375px;
   margin: 50px;
 }
+.image-container img {
+  border-radius: 5px; 
+}
 .main-about {
   display: flex;
 }
