@@ -49,6 +49,7 @@
   color:#0F0F0C;
   font-family: 'Oswald', sans-serif;
   font-family: 'Titillium Web', sans-serif;
+  background-color: #E2E1D5;
   
 } 
 
@@ -296,7 +297,8 @@ h5 {
 
 .skills {
   padding-bottom: 10px;
-  color: hsl(146, 54%, 28%)
+  color: hsl(146, 54%, 28%);
+  background-color: #C3A32C;
 }
 .res-wrap {
   display: flex; 
@@ -304,6 +306,7 @@ h5 {
   align-items: center; 
   justify-content: center; 
   width: 100%; 
+  background-color: #C3A32C;
 }
 
 .circle {
@@ -317,24 +320,23 @@ h5 {
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
+  z-index: 100; 
 }
 
  .tools {
-  font-size: 47px;
+  font-size: 44px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #216E42;
   position: relative; 
+  background-color: #C3A32C;
 
 }
 .resCont {
   height: 100vw; 
+  background-color: #C3A32C;
 }
 
-.fa-sharp.fa-solid.fa-arrow-up.fa-fade {
-  color: #216E42;
-  font-size: 40px;
-}
 
 @media screen and (max-width: 554px) {
   .tools {

@@ -33,9 +33,6 @@ const Resume = () => {
       REACT <br></br>
       </p>
         </div>
-        <div>
-        <i class="fa-sharp fa-solid fa-arrow-up fa-fade"></i>
-        </div>
         </div>
         </div> 
     </div>
