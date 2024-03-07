@@ -21,9 +21,9 @@ function Navbar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <Link to="/Resume">Resume</Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link to="/Contact">Contact</Link>
-      </li>
+      </li> */}
     </ul>
   );
 }
