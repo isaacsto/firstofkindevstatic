@@ -3,8 +3,6 @@ import "../../App.css";
 
 const styles = {
   contStyle: {
-      height: "100vh",
-      width: "100%",
       backgroundColor: "#C3A32C"
   }
 }
@@ -20,6 +18,7 @@ const Resume = () => {
   return ( 
     <div classNam="resCont" style={styles.contStyle}> 
     <div className="resume-page">
+      <div className="res-wrap">
       <h1 className="skills">skills...</h1>
       <div class="circle"
       onClick={handleDownload}>
@@ -36,6 +35,7 @@ const Resume = () => {
         </div>
         <div>
         <i class="fa-sharp fa-solid fa-arrow-up fa-fade"></i>
+        </div>
         </div>
         </div> 
     </div>

@@ -49,7 +49,7 @@
   color:#0F0F0C;
   font-family: 'Oswald', sans-serif;
   font-family: 'Titillium Web', sans-serif;
-  background-color: #E2E1D5;
+  
 } 
 
 .portfolioCont{
@@ -291,24 +291,32 @@ h5 {
   align-items: center;
   flex-direction: column;
   padding: 60px; 
+  height: 100vh; 
 }
 
 .skills {
   padding-bottom: 10px;
   color: hsl(146, 54%, 28%)
 }
+.res-wrap {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%; 
+}
 
 .circle {
-  width: 500px;
-  height: 500px;
+  height: 550px; 
+  width: 550px; 
   border-radius: 50%;
   border: solid 2px #216E42;
   background-color: #C3A32C;
-  cursor: pointer;
-  /*
-  display: flex;
-  justify-content: center;
-  align-items: center; */
+  cursor: pointer; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
 }
 
  .tools {
@@ -316,6 +324,11 @@ h5 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #216E42;
+  position: relative; 
+
+}
+.resCont {
+  height: 100vw; 
 }
 
 .fa-sharp.fa-solid.fa-arrow-up.fa-fade {
@@ -323,24 +336,23 @@ h5 {
   font-size: 40px;
 }
 
-@media screen and (max-width: 992px) {
-  .aboutDiv, .secondDiv, .resCont, .resume-page {
-    width: 100vw;
-    height: 100vh;
+@media screen and (max-width: 554px) {
+  .tools {
+    font-size: 30px; 
   }
-}
+  .circle {
+    height: 350px; 
+    width: 350px; 
+  }
 
-/* Cards are stacked on top of each other at 768px or smaller */
-@media screen and (max-width: 768px) {
-   .secondDiv, .resCont {
-    width: 100vw;
-    height: 100vh
-  }
 }
-
-@media screen and (max-width: 478px) {
-  .resume-page {
-    width: 100vw; 
-    height: 100vw; 
+@media screen and (max-width: 386px) {
+  .tools {
+    font-size: 20px; 
   }
+  .circle {
+    height: 240px; 
+    width: 240px; 
+  }
+
 }
