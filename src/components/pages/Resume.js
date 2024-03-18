@@ -19,7 +19,7 @@ const Resume = () => {
     <div classNam="resCont" style={styles.contStyle}> 
     <div className="resume-page">
       <div className="res-wrap">
-      <h1 className="skills">skills...</h1>
+      <h1 className="skills">click below to download</h1>
       <div class="circle"
       onClick={handleDownload}>
      <p className="tools">
