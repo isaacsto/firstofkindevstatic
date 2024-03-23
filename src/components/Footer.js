@@ -10,7 +10,7 @@ const styles = {
       justifyContent: 'center'
     },
     linkStyle: {
-      padding: '5px'
+      padding: '0px 5px'
     }
   };
 

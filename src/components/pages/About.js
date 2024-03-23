@@ -11,6 +11,7 @@ function About() {
     <h1 className="about-me-name">Isaac Stofko</h1>
       <h2 className="pro-title"> Full Stack Web Developer</h2>
       </div>
+      <div className="about-body-wrap">
       <div className="about-body"> 
       <div className="image-container">
           <img
@@ -36,7 +37,7 @@ function About() {
           approach to problem-solving, creating, and innovating. 
         </p>
         </div>
-
+        </div>
 </div>
 </div>
   );
