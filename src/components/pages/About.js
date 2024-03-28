@@ -32,8 +32,10 @@ function About() {
           Alongside these skills, I possess
           comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST
           APIs, CSS, HTML, and SQL among other languages and technologies. 
-          I
-          eagerly anticipate integrating my imaginative and analytical mindset
+          
+          I am a highly motivated individual with a passion for learning and a 
+          strong work ethic. I am a team player with excellent communication skills; 
+          I eagerly anticipate integrating my imaginative and analytical mindset
           into the technology industry, as I embark on an interdisciplinary
           approach to problem-solving.
         </p>
