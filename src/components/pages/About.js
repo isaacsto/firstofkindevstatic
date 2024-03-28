@@ -28,17 +28,20 @@ function About() {
           I am a full stack web developer equipped with a robust educational and
           professional foundation in English Literature, Creative Writing, Art History, 
           Hospitality, and Team Management.
-          
+          </p>
+          <p>
           Alongside these skills, I possess
           comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST
           APIs, CSS, HTML, and SQL among other languages and technologies. 
-          
+          </p>
+         <p>
           I am a highly motivated individual with a passion for learning and a 
           strong work ethic. I am a team player with excellent communication skills; 
           I eagerly anticipate integrating my imaginative and analytical mindset
           into the technology industry, as I embark on an interdisciplinary
           approach to problem-solving.
-        </p>
+          </p>
+     
         </div>
         </div>
 </div>
