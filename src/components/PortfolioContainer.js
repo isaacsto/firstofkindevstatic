@@ -7,7 +7,7 @@ import Home from "./pages/Home"
 import Navbar from "./Navbar";
 import Projects from "./pages/Projects";
 import Footer from "./Footer";
-//import About from "./pages/About";
+import About from "./pages/About";
 //import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
