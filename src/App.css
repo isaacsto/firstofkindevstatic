@@ -222,19 +222,20 @@ h5.card-title i {
   margin: 50px;
 }
 .image-container img {
-  border-radius: 5px; 
+  border-radius: 50%; 
 }
 
 div.main-about {
   display: flex; 
   height: 100%; 
   align-items: center; 
+  flex-direction: column; 
 }
 
 .main-about p {
   height: 100%; 
   align-items: center; 
-  padding: 40px; 
+
 }
 .about-body-wrap {
   width: 100%; 
