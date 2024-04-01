@@ -54,12 +54,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaacsto/React-Portfolio.git"
+    "url": "git+https://github.com/isaacsto/assignedfakeatbirth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isaacsto/React-Portfolio/issues"
+    "url": "https://github.com/isaacsto/assignedfakeatbirth/issues"
   }
 }
