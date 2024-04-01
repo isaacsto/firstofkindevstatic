@@ -82,69 +82,69 @@
 
 /* projects styling  */
 
+@media screen and (min-width: 800px) {
+  .projects {
+    padding: 20px 150px; 
+  }
+}
 .card1 {
-  height: 33vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: 60%;
   display: flex;
   align-items: center;
   justify-content: center; 
   background-image: url("https://i.imgur.com/i31Irdl.jpg");
+  margin: 20px; 
+  border-radius: 1.5px; 
 }
 
 .card2 {
-  height: 33vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("https://i.imgur.com/ZPc3WT7.jpg");
-  
+  margin: 20px;   
+  border-radius: 1.5px; 
 }
 
 .card3 {
-  height: 33vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("https://i.imgur.com/5YfrufZ.jpg");
-  
+  margin: 20px; 
+  border-radius: 1.5px; 
 }
 
 .card4 {
-  height: 33vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("https://i.imgur.com/bqRI6zA.jpg");
- 
+  margin: 20px;  
+  border-radius: 1.5px; 
 }
 
 .card5 {
-  height: 33vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("https://i.imgur.com/rMViTU6.jpg");
- 
-  
-}
-
-.card6 {
-  height: 33vh;
-  background-size: cover;
-  background-position-y: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("https://i.imgur.com/ngghKdG.jpg");
+  margin: 20px;  
+  border-radius: 1.5px; 
 }
 
 h5 {

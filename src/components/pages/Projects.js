@@ -4,7 +4,7 @@ import '../../App.css'
 
 function Projects() {
     return(
-<section>
+<section class="projects">
 <div className="card1">
     <div className="card-body">
          <h5 className="card-title">
@@ -26,12 +26,12 @@ function Projects() {
 
  <div className="card3">
     <div className="card-body">
-         <h5 className="card-title">
-         <a href="https://isaacsto.github.io/Portfolio/" class="card-anchor">First Portfolio</a>
-         <a href="https://github.com/isaacsto/Portfolio" class="card-anchor"><i class="fab fa-github"></i></a>
+    <h5 className="card-title">
+         <a href="https://isaacsto.github.io/Form_Builder/" class="card-anchor">Form Builder</a>
+         <a href="https://github.com/isaacsto/Form_Builder" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5>
-       
-    </div>            
+         
+    </div>        
  </div>
 
  <div className="card4">
@@ -46,12 +46,13 @@ function Projects() {
 
  <div className="card5">
     <div className="card-body">
-         <h5 className="card-title">
-         <a href="https://isaacsto.github.io/Form_Builder/" class="card-anchor">Form Builder</a>
-         <a href="https://github.com/isaacsto/Form_Builder" class="card-anchor"><i class="fab fa-github"></i></a>
+    <h5 className="card-title">
+         <a href="https://isaacsto.github.io/Portfolio/" class="card-anchor">First Portfolio</a>
+         <a href="https://github.com/isaacsto/Portfolio" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5>
-         
-    </div>            
+       
+    </div> 
+               
  </div>
 
 
