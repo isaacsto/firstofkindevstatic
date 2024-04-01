@@ -7,7 +7,7 @@ import Home from "./pages/Home"
 import Navbar from "./Navbar";
 import Projects from "./pages/Projects";
 import Footer from "./Footer";
-import About from "./pages/About";
+
 //import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
@@ -32,13 +32,18 @@ export default function PortfolioContainer() {
 <script src="https://kit.fontawesome.com/1498603cf1.js" crossorigin="anonymous"></script>
 </head>
 
-<Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+
 
 <Routes initialPath="/Home">
+
 <Route path="/React-Portfolio" element={<Home/>} />
+</Routes>
+<Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+
+<Routes> 
 <Route path="/" element={<Home />} />
 <Route path="/Home" element={< Home/>}/>
-  <Route path="/About" element={<About/>} /> 
+
   
   <Route path="/Projects" element={< Projects />} />
   <Route path="/Resume" element={<Resume />} />

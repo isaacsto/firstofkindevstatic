@@ -1,9 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '../../App.css'
+
+import About from './About'; 
 
 const style = {
   containerStyle: {
-    backgroundImage: 'url("https://i.imgur.com/rwNKj6h.jpg")',
+   
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -15,10 +18,11 @@ const style = {
 
 function Home() {
   return (
-  
-      <div className="home-body" style={style.containerStyle}>
-    
+    <div>
+      <div className="home-body">
       </div>
+     <About/>
+     </div>
   );
 }
 

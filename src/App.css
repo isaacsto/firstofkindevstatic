@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 800px) {
   .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%; 
   }
 }
 
@@ -76,7 +76,7 @@
 
 .home-body {
   background-image: url("https://i.imgur.com/UB3zdiP.png") ; 
-  /* background-image: url("https://i.imgur.com/zTvLbdO.jpg") ; */
+  height: 200px; 
 }
 
 
@@ -144,8 +144,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url("https://i.imgur.com/dUq3m2a.jpg"); */
- 
   background-image: url("https://i.imgur.com/ngghKdG.jpg");
 }
 
@@ -215,72 +213,36 @@ h5.card-title i {
   margin: 40px 10px;
 }
 
-#aboutDiv .image-container {
-  background-color: #E2E1D5;
-  border-radius: 10px;
-  max-width: 375px;
-  margin: 50px;
+.about-body {
+  display: flex; 
+  align-items: center;
+  gap: 4rem; 
+  padding: 50px 100px; 
+}
+
+@media screen and  (max-width: 1200px){
+  .about-body {
+    flex-direction: column;
+  }
+  .image-container{
+    display: flex; 
+    justify-content: center;
+  }
+
 }
 .image-container img {
   border-radius: 50%; 
 }
 
 div.main-about {
-  display: flex; 
-  height: 100%; 
-  align-items: center; 
-  flex-direction: column; 
 }
 
 .main-about p {
-  height: 100%; 
-  align-items: center; 
-
-}
-.about-body-wrap {
-  width: 100%; 
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+ font-size: 22px; 
+ padding: 20px; 
 }
 
-.about-body {
-  display: flex; 
-  flex-direction: row; 
-  max-width: 45%; 
-  justify-content: center;
-}
-@media screen and (max-width: 1500px) {
-  .about-body {
-    max-width: 55%; 
-  }
-}
-@media screen and (max-width: 1200px) {
-  .about-body {
-    max-width: 65%; 
-  }
-}
-@media screen and (max-width: 924px) {
-  .about-body {
-    max-width: 75%; 
-  }
-}
-@media screen and (max-width: 782px) {
-  .about-body {
-    max-width: 90%; 
-  }
-}
-@media screen and (max-width: 650px) {
 
-  div.about-body {
-    flex-direction: column; 
-  }
-  #aboutDiv .image-container {
-    width: 100%; 
-    display: flex;
-    justify-content: center; 
-  }
-}
 /* footer styling */
 
 .footer {
