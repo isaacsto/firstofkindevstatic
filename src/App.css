@@ -229,7 +229,13 @@ h5.card-title i {
  padding: 20px; 
 }
 
+@media screen and (max-width: 641px) {
+.main-about p {
+  font-size: 14px; 
+  padding: 5px; 
+}
 
+}
 /* footer styling */
 
 .footer {
