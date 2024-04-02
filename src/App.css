@@ -299,6 +299,7 @@ h5.card-title i {
   padding-bottom: 10px;
   color: hsl(146, 54%, 28%);
   background-color: #000000;
+  text-align: center; 
 }
 .res-wrap {
   display: flex; 
