@@ -8,8 +8,8 @@ function Projects() {
 <div className="card1">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://molyneauxk93.github.io/PawsPlus-/" class="card-anchor">PawsPlus+</a>
-         <a href="https://github.com/molyneauxk93/PawsPlus-/" class="card-anchor"><i class="fab fa-github"></i></a>
+         <a href="https://isaacsto.github.io/CNGame/" class="card-anchor">Trivia Game</a>
+         <a href="https://github.com/isaacsto/CNGame" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5>
         
     </div>       
