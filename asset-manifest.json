@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/assignedfakeatbirth/static/css/main.12f4893c.css",
-    "main.js": "/assignedfakeatbirth/static/js/main.bac84d98.js",
+    "main.css": "/assignedfakeatbirth/static/css/main.5d569f7a.css",
+    "main.js": "/assignedfakeatbirth/static/js/main.f83da5aa.js",
     "static/js/787.26f04cd4.chunk.js": "/assignedfakeatbirth/static/js/787.26f04cd4.chunk.js",
     "static/media/fa-solid-900.ttf": "/assignedfakeatbirth/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/assignedfakeatbirth/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/assignedfakeatbirth/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/assignedfakeatbirth/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/assignedfakeatbirth/index.html",
-    "main.12f4893c.css.map": "/assignedfakeatbirth/static/css/main.12f4893c.css.map",
-    "main.bac84d98.js.map": "/assignedfakeatbirth/static/js/main.bac84d98.js.map",
+    "main.5d569f7a.css.map": "/assignedfakeatbirth/static/css/main.5d569f7a.css.map",
+    "main.f83da5aa.js.map": "/assignedfakeatbirth/static/js/main.f83da5aa.js.map",
     "787.26f04cd4.chunk.js.map": "/assignedfakeatbirth/static/js/787.26f04cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12f4893c.css",
-    "static/js/main.bac84d98.js"
+    "static/css/main.5d569f7a.css",
+    "static/js/main.f83da5aa.js"
   ]
 }
