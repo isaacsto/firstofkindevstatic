@@ -61,11 +61,15 @@
 
 .nav-tabs {
   background-color: #E2E1D5;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px; 
 }
 
 .nav-item a {
   color: #0F0F0C;
   text-decoration: none;
+  font-size: 19px;
 }
 
 .nac-item a:hover { 
