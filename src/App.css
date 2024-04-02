@@ -81,14 +81,18 @@
 
 
 /* projects styling  */
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .projects {
-    padding: 20px 150px; 
+    padding: 20px 100px; 
+  }
+}
+@media screen and (min-width: 1200px) {
+  .projects {
+    padding: 20px 250px; 
   }
 }
 .card1 {
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
   background-position-y: 60%;
   display: flex;
@@ -100,7 +104,7 @@
 }
 
 .card2 {
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
@@ -112,7 +116,7 @@
 }
 
 .card3 {
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
@@ -124,7 +128,7 @@
 }
 
 .card4 {
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
@@ -136,7 +140,7 @@
 }
 
 .card5 {
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
