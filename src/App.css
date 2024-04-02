@@ -204,7 +204,8 @@ h5.card-title i {
 }
 
 .aboutIntro {
-  margin: 40px 10px;
+  text-align: center;
+  margin: 20px; 
 }
 
 .about-body {
