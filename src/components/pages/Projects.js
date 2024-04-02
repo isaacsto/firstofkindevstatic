@@ -47,8 +47,8 @@ function Projects() {
  <div className="card5">
     <div className="card-body">
     <h5 className="card-title">
-         <a href="https://isaacsto.github.io/Portfolio/" class="card-anchor">First Portfolio</a>
-         <a href="https://github.com/isaacsto/Portfolio" class="card-anchor"><i class="fab fa-github"></i></a>
+         <a href="https://github.com/isaacsto/Social-Network-API" class="card-anchor">Social Network API Tests</a>
+         <a href="https://github.com/isaacsto/Social-Network-API" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5>
        
     </div> 
