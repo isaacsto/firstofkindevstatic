@@ -231,8 +231,11 @@ h5.card-title i {
 
 @media screen and (max-width: 641px) {
 .main-about p {
-  font-size: 14px; 
+  font-size: 15px; 
   padding: 5px; 
+}
+.about-body {
+  padding: 20px; 
 }
 
 }
