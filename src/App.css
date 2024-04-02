@@ -205,28 +205,34 @@ h5.card-title i {
 
 .about-body {
   display: flex; 
-  align-items: center;
+  align-items: flex-end;
   gap: 4rem; 
-  padding: 50px 100px; 
+  padding: 20px 100px 40px; 
 }
 
 @media screen and  (max-width: 1200px){
   .about-body {
     flex-direction: column;
+    align-items: center;
   }
   .image-container{
     display: flex; 
     justify-content: center;
+    
   }
 
 }
 .image-container img {
   border-radius: 50%; 
 }
+.about-body.image-container {
+  display: flex; 
+  height: 100%; 
 
+}
 .main-about p {
  font-size: 22px; 
- padding: 20px; 
+ padding: 10px; 
 }
 
 @media screen and (max-width: 641px) {

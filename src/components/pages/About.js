@@ -21,8 +21,7 @@ function About() {
   </p>
   <p>
   I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. 
-  </p>
-  <p>
+  <br></br>
   I am especially interested in exploring AI and music software including DAWs/plugins as I move through my career. 
   </p>
   <p>
@@ -35,7 +34,7 @@ function About() {
           <img
             src="https://i.imgur.com/gylZ6Zs.jpg"
             alt="" 
-            className="my-pic" width="250" 
+            className="my-pic" width="150" 
           />
       </div>
     
