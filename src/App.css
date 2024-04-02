@@ -341,11 +341,9 @@ h5.card-title i {
   height: 100vw; 
   background-color: #000000; 
 }
-
-
 @media screen and (max-width: 554px) {
   .tools {
-    font-size: 30px; 
+    font-size: 22px; 
   }
   .circle {
     height: 350px; 
@@ -353,13 +351,16 @@ h5.card-title i {
   }
 
 }
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 430px) {
   .tools {
-    font-size: 20px; 
+    font-size: 18px; 
   }
   .circle {
     height: 240px; 
     width: 240px; 
+  }
+  .resume-page{
+    justify-content: flex-start;
   }
 
 }
