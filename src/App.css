@@ -84,20 +84,23 @@
 
 
 /* projects styling  */
-@media screen and (min-width: 768px) {
-  .projects {
-    padding: 20px 100px; 
-  }
-}
-@media screen and (min-width: 1200px) {
-  .projects {
-    padding: 20px 250px; 
-  }
-}
 
+
+.projects {
+  margin-top: 40px; 
+}
+ .row-card {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap;
+  width: 100%; 
+ }
 
 .card1 {
-  height: 15vh;
+  width: 40%;
+  height: 15vh; 
   background-size: cover;
   background-position-y: 60%;
   display: flex;
@@ -109,7 +112,8 @@
 }
 
 .card2 {
-  height: 15vh;
+  width: 40%; 
+  height: 15vh; 
   background-size: cover;
   background-position-y: center;
   display: flex;
@@ -121,6 +125,7 @@
 }
 
 .card3 {
+  width: 40%; 
   height: 15vh;
   background-size: cover;
   background-position-y: center;
@@ -133,6 +138,7 @@
 }
 
 .card4 {
+  width: 40%; 
   height: 15vh;
   background-size: cover;
   background-position-y: center;
@@ -145,6 +151,7 @@
 }
 
 .card5 {
+  width: 40%; 
   height: 15vh;
   background-size: cover;
   background-position-y: center;
@@ -192,6 +199,25 @@ h5.card-title i {
 .card-anchor:hover { 
   color: #617C84;
 }
+
+@media screen and (max-width: 768px) {
+  .projects {
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 0; 
+  }
+  .row-card {
+    display: flex; 
+    flex-direction: column;
+    gap: 0; 
+  
+  }
+  .card1, .card2, .card3, .card4, .card5 {
+    width: 100%; 
+    margin: 10px; 
+  }
+}
+
 
 
 /* about styling */
