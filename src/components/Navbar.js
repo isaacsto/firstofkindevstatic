@@ -8,12 +8,9 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/Home">Home</Link>
+        <Link to="/Home">About</Link>
       </li>
 
-      <li className="nav-item">
-        <Link to="/About">About</Link>
-      </li>
 
       <li className="nav-item">
         <Link to="/Projects">Projects</Link>
