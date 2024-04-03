@@ -4,6 +4,7 @@ import '../../App.css'
 
 function Projects() {
     return(
+
 <section class="projects">
 <h3 class="header-three">Work</h3>
 <div class="row-card">
@@ -13,9 +14,9 @@ function Projects() {
          <a href="https://isaacsto.github.io/CNGame/" class="card-anchor">Trivia Game</a>
          <a href="https://github.com/isaacsto/CNGame" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5>
-    </div>       
-</div>
- 
+    </div>  
+    </div>     
+
  <div className="card2">
     <div className="card-body">
          <h5 className="card-title">
@@ -24,9 +25,7 @@ function Projects() {
          </h5> 
     </div>            
  </div>
-</div>
 
-<div class="row-card">
  <div className="card3">
     <div className="card-body">
     <h5 className="card-title">
@@ -43,9 +42,7 @@ function Projects() {
          </h5> 
     </div>            
  </div>
-</div>
 
-<div class="row-card">
  <div className="card5">
     <div className="card-body">
     <h5 className="card-title">
