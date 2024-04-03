@@ -73,6 +73,7 @@
 
 .nav-item a:hover { 
   font-weight: 600;
+  color:#000000; 
 }
 
 /* header styling*/
@@ -198,7 +199,8 @@ h5.card-title i {
 }
 
 .card-anchor:hover { 
-  font-weight: 600; 
+ color:#000000; 
+ font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -224,8 +226,7 @@ h5.card-title i {
 /* about styling */
 
 
-#aboutDiv {
-  
+#aboutDiv { 
   margin-left:10px;
   margin-right: 10px;
   height: 100%;
