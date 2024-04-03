@@ -5,7 +5,7 @@ import '../../App.css'
 function Projects() {
     return(
 <section class="projects">
-
+<h3 class="header-three">Work</h3>
 <div class="row-card">
 <div className="card1">
     <div className="card-body">
