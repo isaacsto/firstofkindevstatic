@@ -7,7 +7,8 @@ import '../App.css';
 const styles = {
     footerStyle: {
       display: 'flex',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      zIndex: '999'
     },
     linkStyle: {
       padding: '0px 5px'
