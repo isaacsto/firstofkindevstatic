@@ -101,65 +101,65 @@
 
 .card1 {
   width: 40%;
-  height: 15vh; 
+  height: 20vh; 
   background-size: cover;
   background-position-y: 60%;
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-image: url("https://i.imgur.com/i31Irdl.jpg");
+  background-image: url("/src/components/assets/i31Irdl.jpg");
   margin: 20px; 
   border-radius: 1.5px; 
 }
 
 .card2 {
   width: 40%; 
-  height: 15vh; 
+  height: 20vh; 
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/ZPc3WT7.jpg");
+  background-image: url("/src/components/assets/ZPc3WT7.jpg");
   margin: 20px;   
   border-radius: 1.5px; 
 }
 
 .card3 {
   width: 40%; 
-  height: 15vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/5YfrufZ.jpg");
+  background-image: url("/src/components/assets/5YfrufZ.jpg");
   margin: 20px; 
   border-radius: 1.5px; 
 }
 
 .card4 {
   width: 40%; 
-  height: 15vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/bqRI6zA.jpg");
+  background-image: url("/src/components/assets/bqRI6zA.jpg");
   margin: 20px;  
   border-radius: 1.5px; 
 }
 
 .card5 {
   width: 40%; 
-  height: 15vh;
+  height: 20vh;
   background-size: cover;
   background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.imgur.com/rMViTU6.jpg");
+  background-image: url("/src/components/assets/rMViTU6.jpg");
   margin: 20px;  
   border-radius: 1.5px; 
 }
@@ -221,10 +221,7 @@ h5.card-title i {
   }
 }
 
-
-
 /* about styling */
-
 
 #aboutDiv { 
   margin-left:10px;
