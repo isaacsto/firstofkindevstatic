@@ -18,7 +18,8 @@ function About() {
   <p>
   I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. 
   <br></br>
-  I am especially interested in exploring AI and music software including DAWs/plugins as I move through my career and have begun to pursure that through learning C++. 
+
+  As I progress in my career, I am particularly keen on delving deeper into the realms of artificial intelligence (AI) and music software, which encompasses digital audio workstations (DAWs) and plugins. To pursue this interest, I have embarked on a journey of learning C++ programming language, recognizing its significance in these fields.. 
   </p>
   <p>
   I eagerly anticipate integrating my imaginative and analytical mindset
