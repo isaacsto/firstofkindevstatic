@@ -17,7 +17,7 @@ function Freelance() {
           <div className={`accordion-item ${activeIndex === 0 ? 'active' : ''}`}>
             <h2 className="accordion-header" onClick={() => toggleAccordion(0)}>Hourly Rates</h2>
             <div className="accordion-content">
-              <p><strong>Description:</strong> Hourly rates are suitable for projects where the scope is not clearly defined or may change over time. It offers flexibility and allows for ongoing adjustments as the project progresses.</p>
+              <p>Hourly rates are suitable for projects where the scope is not clearly defined or may change over time. It offers flexibility and allows for ongoing adjustments as the project progresses.</p>
               <p><strong>Rate:</strong> $35.00</p>
               <p><strong>Examples:</strong><br/>
                 - Minor website updates and maintenance<br/>
@@ -29,7 +29,7 @@ function Freelance() {
           <div className={`accordion-item ${activeIndex === 1 ? 'active' : ''}`}>
             <h2 className="accordion-header" onClick={() => toggleAccordion(1)}>Flat Rates</h2>
             <div className="accordion-content">
-              <p><strong>Description:</strong> Flat rates are ideal for projects with well-defined scopes and clear deliverables.</p>
+              <p> Flat rates are ideal for projects with well-defined scopes and clear deliverables.</p>
               <p><strong>Pricing:</strong><br/>
                 - Basic Website: Starting from $1200<br/>
                 - Medium-Scale Website: Starting from $2500<br/>
@@ -50,7 +50,7 @@ function Freelance() {
           <div className={`accordion-item ${activeIndex === 2 ? 'active' : ''}`}>
             <h2 className="accordion-header" onClick={() => toggleAccordion(2)}>Customized Solutions</h2>
             <div className="accordion-content">
-              <p><strong>Description:</strong> For projects that don't fit neatly into predefined categories, customized pricing solutions can be tailored to meet specific needs and budgets.</p>
+              <p>For projects that don't fit neatly into predefined categories, customized pricing solutions can be tailored to meet specific needs and budgets.</p>
               <p><strong>Flexibility and Negotiation:</strong><br/>
                 - Depending on project requirements and client budget, pricing can be adjusted accordingly.<br/>
                 - Open to discussing alternative pricing structures or payment plans.</p>
