@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/assignedfakeatbirth/static/css/main.bca73d5f.css",
+    "main.css": "/assignedfakeatbirth/static/css/main.d8d20a60.css",
     "main.js": "/assignedfakeatbirth/static/js/main.54804a21.js",
     "static/js/787.3ab2ed3c.chunk.js": "/assignedfakeatbirth/static/js/787.3ab2ed3c.chunk.js",
     "static/media/ZPc3WT7.jpg": "/assignedfakeatbirth/static/media/ZPc3WT7.5c3819ce57fbb3f29215.jpg",
@@ -18,12 +18,12 @@
     "static/media/fa-v4compatibility.ttf": "/assignedfakeatbirth/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/assignedfakeatbirth/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/assignedfakeatbirth/index.html",
-    "main.bca73d5f.css.map": "/assignedfakeatbirth/static/css/main.bca73d5f.css.map",
+    "main.d8d20a60.css.map": "/assignedfakeatbirth/static/css/main.d8d20a60.css.map",
     "main.54804a21.js.map": "/assignedfakeatbirth/static/js/main.54804a21.js.map",
     "787.3ab2ed3c.chunk.js.map": "/assignedfakeatbirth/static/js/787.3ab2ed3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca73d5f.css",
+    "static/css/main.d8d20a60.css",
     "static/js/main.54804a21.js"
   ]
 }
