@@ -1,11 +1,7 @@
 import React from "react";
 import "../../App.css";
 
-const styles = {
-  contStyle: {
-      backgroundColor: "#C3A32C"
-  }
-}
+
 
 const Resume = () => {
   const handleDownload = () => {
@@ -15,29 +11,17 @@ const Resume = () => {
     downloadLink.click();
   };
 
-  return ( 
-    <div classNam="resCont" style={styles.contStyle}> 
-    <div className="resume-page">
-      <div className="res-wrap">
-      <h1 className="skills">click below to download</h1>
-      <div class="circle"
-      onClick={handleDownload}>
-     <p className="tools">
-      HTML <br></br>
-      CSS<br></br>
-      JAVASCRIPT<br></br>
-      NODE.JS<br></br>
-      EXPRESS<br></br>
-      SQL /
-      NOSQL<br></br>
-      REACT <br></br>
-      </p>
+  return (
+    
+      <div className="resume-page">
+        <div 
+          onClick={handleDownload}>
+          <p className="tools">
+            click to download resume
+          </p>
         </div>
-        </div>
-        
-        </div> 
-       
-    </div>
+      </div>
+   
   )
 }
 
