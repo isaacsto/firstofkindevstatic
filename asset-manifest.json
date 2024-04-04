@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/assignedfakeatbirth/static/css/main.2766dc9f.css",
-    "main.js": "/assignedfakeatbirth/static/js/main.8a345283.js",
-    "static/js/787.26f04cd4.chunk.js": "/assignedfakeatbirth/static/js/787.26f04cd4.chunk.js",
+    "main.css": "/assignedfakeatbirth/static/css/main.bca73d5f.css",
+    "main.js": "/assignedfakeatbirth/static/js/main.54804a21.js",
+    "static/js/787.3ab2ed3c.chunk.js": "/assignedfakeatbirth/static/js/787.3ab2ed3c.chunk.js",
     "static/media/ZPc3WT7.jpg": "/assignedfakeatbirth/static/media/ZPc3WT7.5c3819ce57fbb3f29215.jpg",
     "static/media/5YfrufZ.jpg": "/assignedfakeatbirth/static/media/5YfrufZ.1e439aaf7929f520c88f.jpg",
     "static/media/rMViTU6.jpg": "/assignedfakeatbirth/static/media/rMViTU6.3d4a540d5562b608b1b7.jpg",
     "static/media/bqRI6zA.jpg": "/assignedfakeatbirth/static/media/bqRI6zA.29295435a3678c89310c.jpg",
     "static/media/i31Irdl.jpg": "/assignedfakeatbirth/static/media/i31Irdl.a2362d02a84873c089db.jpg",
+    "static/media/tanner-vote-rKgb2jb7wk0-unsplash.jpg": "/assignedfakeatbirth/static/media/tanner-vote-rKgb2jb7wk0-unsplash.19335f6c42fc33ac1ce0.jpg",
     "static/media/fa-solid-900.ttf": "/assignedfakeatbirth/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/assignedfakeatbirth/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/assignedfakeatbirth/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -17,12 +18,12 @@
     "static/media/fa-v4compatibility.ttf": "/assignedfakeatbirth/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/assignedfakeatbirth/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/assignedfakeatbirth/index.html",
-    "main.2766dc9f.css.map": "/assignedfakeatbirth/static/css/main.2766dc9f.css.map",
-    "main.8a345283.js.map": "/assignedfakeatbirth/static/js/main.8a345283.js.map",
-    "787.26f04cd4.chunk.js.map": "/assignedfakeatbirth/static/js/787.26f04cd4.chunk.js.map"
+    "main.bca73d5f.css.map": "/assignedfakeatbirth/static/css/main.bca73d5f.css.map",
+    "main.54804a21.js.map": "/assignedfakeatbirth/static/js/main.54804a21.js.map",
+    "787.3ab2ed3c.chunk.js.map": "/assignedfakeatbirth/static/js/787.3ab2ed3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2766dc9f.css",
-    "static/js/main.8a345283.js"
+    "static/css/main.bca73d5f.css",
+    "static/js/main.54804a21.js"
   ]
 }
