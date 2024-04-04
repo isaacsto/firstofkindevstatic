@@ -30,7 +30,7 @@ h2 {
 
 .header-body {
   background-image: url("./components/assets/tanner-vote-rKgb2jb7wk0-unsplash.jpg");
-  height: 1000px;
+  height: 100vh;
   top: 0; 
   display: flex; 
   flex-direction: column; 
