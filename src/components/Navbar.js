@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
 
 import "../App.css";
 
@@ -11,6 +10,7 @@ function Navbar({ currentPage, handlePageChange }) {
 <li className="nav-item"> <a href="#about">About</a></li>
 <li className="nav-item"> <a href="#work">Work</a></li>
 <li className="nav-item"> <a href="#resume">Resume</a></li>
+<li className="nav-item"> <a href="#freelance">Pricing</a></li>
     </ul>
   );
 }

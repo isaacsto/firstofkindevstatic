@@ -2,6 +2,9 @@
   color: #0f0f0c;
   font-family: "Titillium Web", sans-serif;
 }
+h2, strong {
+  font-family: sans-serif; 
+}
 
 .portfolioCont {
   background-color: #ffffff;
@@ -17,7 +20,7 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
+.title {
   font-family: "Oswald", sans-serif;
 }
 
@@ -161,6 +164,9 @@ h5.card-title i {
 }
 
 /* about styling */
+.container.about {
+  padding-bottom: 40px; 
+}
 
 #aboutDiv {
   margin-left: 10px;
@@ -172,7 +178,6 @@ h5.card-title i {
   display: flex;
   align-items: flex-end;
   gap: 4rem;
-  padding: 20px 150px 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -312,10 +317,6 @@ h5.card-title i {
     font-size: 22px;
   }
 
-  .circle {
-    height: 350px;
-    width: 350px;
-  }
 }
 
 @media screen and (max-width: 430px) {
@@ -323,12 +324,42 @@ h5.card-title i {
     font-size: 18px;
   }
 
-  .circle {
-    height: 240px;
-    width: 240px;
-  }
-
   .resume-page {
     justify-content: flex-start;
   }
+}
+
+/* Style for the accordion */
+.pricing {
+  padding: 80px; 
+  background: #F0F4FA; 
+}
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.accordion-header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+/* Active state for the accordion */
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+a.back-up {
+  text-decoration: none;
+  color: #000000; 
+}
+
+a.back-up:hover {
+  font-weight: 600; 
 }

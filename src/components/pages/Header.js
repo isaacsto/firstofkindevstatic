@@ -3,7 +3,7 @@ import Navbar from '../Navbar';
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className="header-body">
+    <div className="header-body" id="header">
   
         <h1 className="name">Isaac</h1>
         <h2 className="title">Full Stack Web Developer</h2>

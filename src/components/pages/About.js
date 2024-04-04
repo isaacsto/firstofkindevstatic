@@ -5,7 +5,7 @@ import "../../App.css";
 function About() {
   return (
 
-    <div id="aboutDiv">  
+    <div class="container about">  
       <div className="about-body"> 
       <div className="main-about">
 <h4 class="header-four">About Me</h4>
