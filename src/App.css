@@ -44,7 +44,7 @@ h3 {
 /* projects styling  */
 
 .projects {
-  margin-top: 40px;
+  margin: 40px 20px 140px;
 }
 .row-card {
   display: flex;
@@ -207,6 +207,7 @@ h5.card-title i {
   display: flex;
   justify-content: flex-end; 
   align-items: flex-end; 
+
 }
 
 .nav-item {

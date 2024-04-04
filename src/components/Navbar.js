@@ -12,9 +12,7 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
 <li className="nav-item"> <a href="#about">About</a></li>
 <li className="nav-item"> <a href="#work">Work</a></li>
-      <li className="nav-item">
-        <Link to="/Resume">Resume</Link>
-      </li>
+<li className="nav-item"> <a href="#resume">Resume</a></li>
     </ul>
   );
 }
