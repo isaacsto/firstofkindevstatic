@@ -11,7 +11,7 @@ const styles = {
       zIndex: '999'
     },
     linkStyle: {
-      padding: '0px 5px'
+      padding: '0px 5px',
     }
   };
 
