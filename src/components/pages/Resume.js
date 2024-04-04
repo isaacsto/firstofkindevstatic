@@ -17,7 +17,7 @@ const Resume = () => {
         <div 
           onClick={handleDownload}>
           <p className="tools">
-            click to download resume
+            resume
           </p>
         </div>
       </div>
