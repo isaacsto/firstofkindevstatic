@@ -13,13 +13,15 @@ const Resume = () => {
 
   return (
     
-      <div className="resume-page">
+    <div className="resume-page">
+      <div className="resume-wrap">
         <div 
           onClick={handleDownload}>
           <p className="tools">
             resume
           </p>
         </div>
+      </div>
       </div>
    
   )

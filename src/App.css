@@ -261,17 +261,28 @@ h5.card-title i {
 }
 
 /* Resume Download */
-
 .resume-page {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  background-color: #F0F4FA; 
+  padding: 60px 0; 
+}
+
+.resume-wrap{
   background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 60px;
-  height: 100vh;
-}
 
+  border-radius: 50%; 
+  height: 500px;
+  width: 500px; 
+}
+.resume-page p {
+  font-size: 55px; 
+}
 @keyframes blink {
   0% {
     opacity: 1;
