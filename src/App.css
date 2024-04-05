@@ -340,9 +340,10 @@ h5.card-title i {
 }
 
 .accordion-header {
-  background-color: #f4f4f4;
+  background-color: #F0F4FA; 
   padding: 10px;
   cursor: pointer;
+  box-shadow:rgba(0, 0, 0, 0.4)!important; 
 }
 
 .accordion-content {
