@@ -20,7 +20,7 @@ function Projects() {
  <div className="card2">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://nameless-springs-87426-ab7084b2cd1d.herokuapp.com" class="card-anchor">Offres D'art</a>
+         <a href="https://nameless-springs-87426-ab7084b2cd1d.herokuapp.com" class="card-anchor">Artly</a>
          <a href="https://github.com/Cashew1337/Art-Dealer" class="card-anchor"><i class="fab fa-github"></i></a>
          </h5> 
     </div>            
