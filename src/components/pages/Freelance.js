@@ -18,7 +18,7 @@ function Freelance() {
             <h2 className="accordion-header" onClick={() => toggleAccordion(0)}>Hourly Rates</h2>
             <div className="accordion-content">
               <p>Hourly rates are suitable for projects where the scope is not clearly defined or may change over time. It offers flexibility and allows for ongoing adjustments as the project progresses.</p>
-              <p><strong>Rate:</strong> $35.00</p>
+              <p><strong>Rate:</strong> $55.00</p>
               <p><strong>Examples:</strong><br/>
                 - Minor website updates and maintenance<br/>
                 - Consultation and troubleshooting<br/>
@@ -31,9 +31,9 @@ function Freelance() {
             <div className="accordion-content">
               <p> Flat rates are ideal for projects with well-defined scopes and clear deliverables.</p>
               <p><strong>Pricing:</strong><br/>
-                - Basic Website: Starting from $1200<br/>
-                - Medium-Scale Website: Starting from $2500<br/>
-                - Advanced Website: Starting from $4000</p>
+                - Basic Website: Starting from $2500<br/>
+                - Medium-Scale Website: Starting from $5000<br/>
+                - Advanced Website: Starting from $7500</p>
               <p><strong>Factors Influencing Price:</strong><br/>
                 - Complexity of design and functionality<br/>
                 - Integration of third-party services<br/>
