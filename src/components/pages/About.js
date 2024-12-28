@@ -14,11 +14,11 @@ function About() {
   professional foundation in English Literature, Creative Writing, Art History, Hospitality, and Team Management. I am passionate about creating beautiful and user friendly UIs and mobile-first frontend development. I am equally passionate about utilizing backend frameworks and libraries to create dynamic, scalable, and streamlined backends, seeking to balance style with utility. 
   </p>
   <p>
-  I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. As I progress in my career, I am particularly keen on delving deeper into the realms of artificial intelligence (AI) and music software, which encompasses digital audio workstations (DAWs) and plugins. To pursue this interest, I have embarked on a journey of learning C++ programming language, recognizing its significance in these fields.
+  I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. As I progress in my career, I am particularly interested on delving deeper into the realms of artificial intelligence (AI) in its uses for marketing and advertising, as well as its potential for improvimg music software, which encompasses digital audio workstations (DAWs) and plugins. To pursue this interest, I have embarked on a journey of gaining Machine Learning certifications through Google & Coursera recognizing the potential in this field.
   </p>
   <p>
   I eagerly anticipate integrating my imaginative and analytical mindset
-  into the technology industry, as I embark on an interdisciplinary
+  into the ever growing technology industry, as I embark on an interdisciplinary
   approach to problem-solving, creating, and innovating. 
 </p>
 </div>
