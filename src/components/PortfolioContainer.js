@@ -6,8 +6,6 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Footer from "./Footer";
 import Header from "./pages/Header";
-import Freelance from "./pages/Freelance";
-import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 import "../App.css";
