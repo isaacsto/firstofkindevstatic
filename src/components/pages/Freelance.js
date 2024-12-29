@@ -58,9 +58,6 @@ function Freelance() {
             </div>
           </div>
         </div>
-
-        {/* <h2>Contact Us</h2>
-        <p>Ready to get started or have questions about our pricing options? Contact us today to discuss your project requirements and receive a detailed quote tailored to your needs.</p> */}
       </div>
       <a class="back-up" href="#header">Back to top</a>
       </div>

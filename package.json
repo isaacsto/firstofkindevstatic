@@ -1,5 +1,5 @@
 {
-  "name": "assingedfakeatbirth",
+  "name": "First of Kind DD",
   "version": "1.0.0",
   "homepage": ".",
   "private": true,
@@ -60,6 +60,6 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isaacsto/assignedfakeatbirth/issues"
+    "url": "https://github.com/isaacsto/firstofkindevelopment/issues"
   }
 }
