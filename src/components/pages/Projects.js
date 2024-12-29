@@ -11,7 +11,7 @@ function Projects() {
 <div className="card1">
     <div className="card-body">
          <h5 className="card-title">
-         <a href="https://www.thomascookhair.com/" class="card-anchor">Thomas Cook Styling Business</a>
+         <a href="https://www.thomascookhair.com/" class="card-anchor">Thomas Cook Hair</a>
          </h5>
     </div>  
     </div>     
