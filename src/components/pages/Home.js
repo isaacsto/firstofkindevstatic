@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Resume from "./Resume"; 
 import Freelance from "./Freelance"; 
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -21,6 +22,9 @@ function Home() {
       </div>
       <div id="freelance">
         <Freelance />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </div>
   );

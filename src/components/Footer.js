@@ -15,7 +15,7 @@ const styles = {
     }
   };
 
-  function Footer({currentPage, handlePageChange}) {
+  function Footer() {
     return(
   <footer className="footer" style={styles.footerStyle}>
     <div >
