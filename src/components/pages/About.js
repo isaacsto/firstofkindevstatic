@@ -10,13 +10,16 @@ function About() {
       <div className="main-about">
 <h4 class="header-four">About Me</h4>
 <p>
-  I am a full stack web developer equipped with a robust educational and
-  professional foundation in English Literature, Creative Writing, Art History, Hospitality, and Team Management. I am passionate about creating beautiful and user friendly UIs and mobile-first frontend development. I am equally passionate about utilizing backend frameworks and libraries to create dynamic, scalable, and streamlined backends, seeking to balance style with utility. 
+I am a full-stack web developer and machine learning specialist with a strong foundation in AI-driven solutions, web application development, and scalable backend systems. My expertise spans JavaScript, React, Node.js, MongoDB, REST APIs, SQL, and cloud deployment technologies.
+
   </p>
   <p>
-  I possess comprehensive knowledge of JavaScript, React, Node.js, MongoDB, REST APIs, CSS, HTML, and SQL among other languages and technologies. As I progress in my career, I am particularly interested on delving deeper into the realms of artificial intelligence (AI) in its uses for marketing and advertising, as well as its potential for improving music software, which encompasses digital audio workstations (DAWs) and plugins. To pursue this interest, I have embarked on a journey of gaining Machine Learning certifications through Google & Coursera recognizing the potential in this field.
+  I specialize in building intelligent, data-driven applications that integrate AI and automation to enhance performance, optimize user experience, and streamline decision-making processes. My recent work includes leveraging machine learning for predictive analytics, marketing optimization, and automation tools.
   </p>
-  <p>You can contact me at isaacstofko@gmail.com</p>
+  <p>I have earned Machine Learning certifications from Stanford University and IBM and have applied AI-driven approaches in development projects, exploring its potential in marketing, advertising, and music software innovation. My approach balances technical precision with creative problem-solving, ensuring that every application I build is both functional and user-centric.
+
+</p>
+  <p>For inquiries or collaboration, feel free to reach out at isaacstofko@gmail.com</p>
 
 </div>
       <div className="image-container">
