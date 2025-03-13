@@ -36,7 +36,7 @@ function Projects() {
   <div className="card3">
     <div className="card-body">
     <h5 className="card-title">
-         <a href="https://isaacsto.github.io/Form_Builder/" class="card-anchor">Form Builder</a>
+         <a href="https://huggingface.co/spaces/isaacstofko/lead-prediction-model" class="card-anchor">Lead Predictive Model Prototype</a>
          </h5> 
     </div>        
  </div>
