@@ -24,7 +24,7 @@ I am a full-stack web developer and machine learning specialist with a strong fo
 </div>
       <div className="image-container">
           <img
-            src="https://imgur.com/a/663v1oi"
+            src="https://imgur.com/a/dGlZ7Um"
             alt="" 
             className="my-pic" width="150" 
           />
