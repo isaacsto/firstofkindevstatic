@@ -22,13 +22,6 @@ I am a full-stack web developer and machine learning specialist with a strong fo
   <p>For inquiries or collaboration, feel free to reach out at isaacstofko@gmail.com</p>
 
 </div>
-      <div className="image-container">
-          <img
-            src="https://imgur.com/a/dGlZ7Um"
-            alt="" 
-            className="my-pic" width="150" 
-          />
-      </div>
     
   
   
