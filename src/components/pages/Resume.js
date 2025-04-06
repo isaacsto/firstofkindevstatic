@@ -6,8 +6,8 @@ import "../../App.css";
 const Resume = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = process.env.PUBLIC_URL + '/IS_Resume_2025.pdf';
-    downloadLink.download = 'IS_Resume.pdf';
+    downloadLink.href = process.env.PUBLIC_URL + '/Resume_2025_Marketing.pdf';
+    downloadLink.download = '/Resume_2025_Marketing.pdf';
     downloadLink.click();
   };
 
