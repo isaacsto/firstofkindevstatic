@@ -8,7 +8,7 @@ function About() {
     <div class="container about">  
       <div className="about-body"> 
       <div className="main-about">
-<h4 class="header-four">About Me</h4>
+<h4 class="header-four">About</h4>
 <p>Isaac Stofko is a creative, data-literate, and emotionally intelligent full-stack developer and marketing professional with a background in team leadership, web development, and creative writing. His work blends technical precision with storytelling, audience insight, and strategic thinking—whether he's building intelligent applications or elevating cross-functional teams.</p>
 
 <p>With expertise in JavaScript, React, Node.js, MongoDB, REST APIs, and cloud deployment, Isaac specializes in developing data-driven, AI-enhanced tools that streamline decision-making, optimize user experience, and support growth. His recent projects include predictive analytics models for marketing, internal automation tools, and scalable web solutions.</p>
