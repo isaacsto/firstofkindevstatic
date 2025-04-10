@@ -6,7 +6,8 @@ function Header({ currentPage, handlePageChange }) {
     <div className="header-body" id="header">
   
         <h1 className="name">Isaac Stofko</h1>
-        <h2 className="title">Full Stack Web Developer</h2>
+        <h2 className="title">Full Stack Web Developer & Marketing Strategist</h2>
+   
 
       <div className="nav-wrap">
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> 
