@@ -262,7 +262,11 @@ h5.card-title i {
   width: 100%;
   padding: 6px 0 0;
 }
-
+@media screen and (max-width: 641px) {
+    .back-up {
+      display: none
+    }
+}
 /* nav style*/
 .nav {
   list-style-type: none;
